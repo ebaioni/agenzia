@@ -1,0 +1,411 @@
+/*
+	Theme Name:       CasaNova
+	Theme URI:        http: //wpcasa.com/theme/casanova
+	Description:      Child theme for real estate theme framework wpCasa
+	Author:           Simon Rimkus (wpCasa)
+	Author URI:       http: //wpcasa.com/
+	Version:          1.2.1
+	
+	Tags:			  black, blue, gray, white, light, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, fixed-width, flexible-width, custom-background, custom-header, custom-menu, editor-style, featured-images, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready
+	
+	Template:         wpcasa
+	Template Version: 1.3
+	
+	License: 		  GNU General Public License v2.0
+	License URI:      http://www.opensource.org/licenses/gpl-license.php
+*/
+
+/* Import parent theme style.css
+================================================== */
+ 
+@import url("../wpcasa/style.css");
+
+
+/* Body
+================================================== */
+
+body {
+	background-color: #eee;
+	font-family: 'Lora', Georgia, serif !important;
+	font-size: 13px;
+}
+
+
+/* Titles
+================================================== */
+
+.title,
+.post-title,
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: normal;
+}
+
+.title {
+	padding-top: 0;
+	border-top: none;
+}
+
+.title h1,
+.title h2 {
+	text-transform: uppercase;
+}
+
+.listing-title .title {
+	margin-bottom: 15px;
+}
+
+.call-to-action-text h2 {
+	font-size: 26px;
+}
+
+
+/* Link Colors
+================================================== */
+
+a,
+a:visited,
+.wpsight-menu .sf-menu li li a:hover,
+.listing-search-buttons div:hover {
+	color: #21659B;
+}
+
+#main-top .listing-search-buttons div:hover {
+	color: inherit;
+}
+
+.title a:hover, .post-title a:hover,
+.listing-features a:hover {
+	color: #21659B !important;
+}
+
+.title-actions .btn:hover {
+	color: inherit !important;
+}
+
+.title a:visited, .post-title a:visited,
+.listing-features a:visited {
+	color: #505050;
+}
+
+#main-top .title {
+	color: inherit;
+	border-color: #fff;
+}
+
+.call-to-action-text h2 {
+	line-height: 1.2;
+}
+
+#sidebar .call-to-action-text h2 {
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+
+
+/* Layout Elements
+================================================== */
+
+#top-wrap {
+	padding-top: 0;
+	padding-bottom: 0;
+	background: #eee;
+}
+
+#header-wrap {
+	background: #fff;
+}
+
+#menu-wrap,
+#submenu-wrap {
+	width: auto;
+	background: #fff;	
+}
+
+#main-top-wrap {
+	width: auto;
+	margin-top: -40px;
+	margin-bottom: 40px;
+	background: #ddd url(images/bg-main-top-wrap.png);
+}
+
+#listing-search-wrap {
+	width: 1060px;
+	margin: -40px auto 0;
+	padding-top: 40px;
+	background: #fff;
+}
+
+#main-top {
+	margin-right: -40px;
+	margin-left: -40px;
+	padding-top: 40px;
+	padding-right: 40px;
+	padding-left: 40px;
+	padding-bottom: 1px;
+	background-color: #aaa;
+	color: #fff;
+}
+
+#main-middle-wrap,
+#main-bottom-wrap {
+	width: 1060px;
+	margin: -40px auto 0;
+	padding-top: 40px;
+	background: #fff;
+}
+
+#footer-wrap {
+	width: 1060px;
+	margin: 0 auto;
+	background: #fff;
+}
+
+#credit {
+	padding-top: 40px;
+}
+
+
+/* Menus
+================================================== */
+
+.wpsight-menu {
+	margin-right: -40px;
+	margin-left: -40px;
+	padding-right: 40px;
+	padding-left: 40px;	
+}
+
+.wpsight-menu,
+.wpsight-menu .sf-menu li,
+.wpsight-menu .sf-menu a {
+	height: 50px;
+	line-height: 50px;
+	font-size: 13px;
+}
+
+.wpsight-menu .sf-menu li li a,
+.wpsight-menu .sf-menu li li a:visited {
+	font-size: inherit;
+}
+
+.wpsight-menu-main a,
+.wpsight-menu-main a:visited {
+	color: #fff;
+}
+
+.wpsight-menu-sub a,
+.wpsight-menu-sub a:visited {
+	color: inherit;
+}
+
+.wpsight-menu .sf-menu li:hover ul,
+.wpsight-menu .sf-menu li.sfHover ul {
+	top: 50px;
+}
+
+.wpsight-menu-top-left .sf-menu ul,
+.wpsight-menu-top-right .sf-menu ul {
+	border-top: none;
+}
+
+.wpsight-menu-top-left a,
+.wpsight-menu-top-right a {
+	color: inherit;
+}
+
+.wpsight-menu-main .tinynav {
+	margin-top: 4px;
+}
+
+
+/* Misc Elements
+================================================== */
+
+#top .social-icons {
+	margin-top: 17px;
+	margin-bottom: 17px;
+}
+
+#main-top .listing-search form,
+#main-top .widget-call-to-action-wrap {
+	background: url(../wpcasa/lib/assets/img/bg-trans-light-50.png);
+}
+
+#main-top .call-to-action-text {
+	color: #505050;
+}
+
+.single-listing .listing-price-on-request {
+	font-size: inherit;
+}
+
+.flex-direction-nav .flex-prev:hover,
+.flex-direction-nav .flex-next:hover {
+	background-color: #21659B;
+}
+
+input,
+textarea,
+select,
+label,
+button,
+.title-actions,
+#logo-description,
+#cancel-comment-reply-link,
+.listing-price {
+	font-family: 'Lora', Georgia, serif !important;
+}
+
+#submit {
+	padding: 9px 14px;
+  	font-size: 15px;
+  	line-height: normal;
+  	-webkit-border-radius: 5px;
+  	-moz-border-radius: 5px;
+  	border-radius: 5px;
+}
+
+.gform_wrapper {
+	max-width: none !important;
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+}
+
+/* To avoid br height */
+.gform_wrapper form {
+	margin-top: -14px !important;
+}
+
+.gform_wrapper .top_label .gfield_label {
+	margin-top: 0 !important;
+}
+
+.gform_wrapper .gform_footer {
+	padding-top: 0 !important;
+}
+
+
+/* Posts / Properties
+================================================== */
+
+.post-meta {
+	margin-top: -5px;
+	padding-top: 10px;
+	border-top: 1px dotted #b0b0b0;
+}
+
+.listing-details-overview {
+	margin: 10px 0;
+}
+
+.moretag-wrap {
+	display: block;
+	margin-bottom: 20px;
+}
+
+span.favorites-remove:hover {
+	background-color: #21659B;
+}
+
+#comments,
+#pings,
+#respond {
+	padding-top: 20px;
+}
+
+#comments #respond {
+	padding-top: 0;
+}
+
+.comment-inner {
+	padding-bottom: 1px;
+	background: #f8f8f8;
+	border: none;
+}
+
+.allowed-tags,
+.form-allowed-tags {
+	display: none;
+}
+
+img.alignleft,
+img.alignright {
+	margin-bottom: 20px;
+}
+
+.page-template-page-tpl-authors-php .listing-agent .avatar,
+.page-template-page-tpl-authors-php .avatar-wrap {
+	margin-top: 0 !important;
+}
+
+
+/*  Landscape phone to portrait tablet
+================================================== */
+
+@media (max-width: 768px) {
+	
+	#listing-search-wrap,
+	#main-middle-wrap,
+	#main-bottom-wrap,
+	#footer-wrap {
+		width: auto;
+	}
+	
+	.wpsight-menu {
+		margin-right: -20px;
+		margin-left: -20px;
+		padding-right: 20px;
+		padding-left: 20px;	
+	}
+	
+}
+
+/*  Landscape phones and down
+================================================== */
+
+@media (max-width: 480px) {
+	
+	#listing-search-wrap,
+	#main-middle-wrap,
+	#main-bottom-wrap,
+	#footer-wrap {
+		width: auto;
+	}
+
+}
+
+/*  Portrait tablet to landscape and desktop
+================================================== */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+	
+	#listing-search-wrap,
+	#main-middle-wrap,
+	#main-bottom-wrap,
+	#footer-wrap {
+		width: 764px;
+	}
+	
+	#main-top,
+	.wpsight-menu {
+		margin-right: -20px;
+		margin-left: -20px;
+		padding-right: 20px;
+		padding-left: 20px;	
+	}
+	
+}
+
+@media (min-width: 1024px) and (max-width: 1060px) {
+	
+	#listing-search-wrap,
+	#main-middle-wrap,
+	#main-bottom-wrap,
+	#footer-wrap,
+	#main-top {
+		width: auto;
+	}
+	
+}

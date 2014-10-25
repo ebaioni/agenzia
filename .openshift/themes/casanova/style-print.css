@@ -1,0 +1,225 @@
+/**
+ * This is the print style sheet for listings.
+ *
+ * PLEASE NOTICE! The main CSS styles of this
+ * theme are located in /lib/assets/css/layout.css
+ */
+
+/**
+ * WARNING! You can add your custom styles here. But keep in mind
+ * that this file will be overwritten when you update the theme.
+ * If you add styles here, BACKUP this file before updating.
+ */
+ 
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic);
+ 
+body.print {	
+	margin: 0;
+	padding: 0;
+	color: #222;	
+	font-family: 'Droid Serif', serif;
+	font-size: 13px;
+	line-height: 1.5;
+}
+
+h1, h2, h3 {
+	margin: 0 0 20px;
+	line-height: 1;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+a {
+	color: inherit;
+}
+
+hr {
+	height: 1px;
+	margin-bottom: 20px;
+	border: none;
+	border-bottom: 1px dotted #b0b0b0;
+	clear: both;
+}
+
+#top-wrap {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 10px 0;
+	background: #404040;	
+}
+
+#top {
+	width: 90%;
+	max-width: 670px;
+	margin: 0 auto;
+}
+
+#top a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#back {
+	float: left;
+	width: 45%;
+}
+
+#actions {
+	float: right;
+	width: 45%;
+	text-align: right;
+}
+
+#wrap {	
+	position: relative;
+	width: 90%;
+	max-width: 670px;
+	margin: 80px auto 40px;
+}
+
+#logo {
+	margin-bottom: 30px;
+}
+
+#logo-description {
+	margin-top: -30px;
+	margin-bottom: 30px;
+}
+
+[class*="print"] {
+	margin-bottom: 20px;
+	page-break-inside: avoid;
+}
+
+.listing-id-sc,
+.listing-price-sc,
+.property-id-sc,
+.property-price-sc {
+	line-height: 1;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.listing-price-on-request,
+.listing-rental-period,
+.listing-price-sold-rented,
+.property-price-on-request,
+.property-rental-period,
+.property-price-sold-rented {
+	font-weight: normal;
+	font-size: 12px;
+}
+
+.listing-price-sold-rented,
+.property-price-sold-rented {
+	color: red;
+}
+
+.listing-location-terms-sc,
+.listing-property-type-terms-sc,
+.property-location-terms-sc,
+.property-property-type-terms-sc {
+	float: right;
+	width: auto;
+}
+
+.listing-details-sc-detail,
+.property-details-sc-detail {
+	display: inline-block;
+	width: 48%;
+	margin-bottom: 5px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.listing-details-sc-detail .detail-label,
+.property-details-sc-detail .detail-label {
+	display: inline-block;
+	min-width: 50%;
+	font-weight: bold;
+}
+
+.listing-location-terms-sc .listing-term,
+.listing-property-type-terms-sc .listing-term,
+.property-location-terms-sc .listing-term,
+.property-property-type-terms-sc .listing-term,
+.listing-feature-terms-sc .listing-term,
+.property-feature-type-terms-sc .listing-term {
+	display: inline-block;
+	margin: 0 5px 0 0;
+}
+
+.listing-location-sc-term,
+.listing-property-type-sc-term,
+.property-location-sc-term,
+.property-property-type-sc-term {
+	margin: 0 0 0 10px;
+}
+
+.image-gallery {
+	margin-bottom: -10px;
+	padding: 10px 0 0;
+	text-align: center;
+}
+
+.image-gallery-item {
+	max-width: 200px;
+	display: inline-block;
+	margin: 0 10px 20px;
+}
+
+.print-header-right {
+	position: absolute;
+	top: 30px;
+	right: 0;
+}
+
+.print-qr {
+	text-align: center;
+}
+
+.clear {
+	clear: both;
+}
+
+@media print {
+
+	#top-wrap {
+		display: none;	
+	}
+	
+	#wrap {
+		margin-top: 0;
+	}
+	
+}
+
+/* Clearing
+================================================== */
+
+.clearfix:before,
+.clearfix:after {
+  	content: '\0020';
+  	display: block;
+  	overflow: hidden;
+  	visibility: hidden;
+  	width: 0;
+  	height: 0;
+}
+.clearfix:after {
+  	clear: both;
+}
+.clearfix {
+  	zoom: 1;
+}
+
+.clear,
+.wrap {
+	clear: both;
+}

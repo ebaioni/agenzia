@@ -1,0 +1,274 @@
+/* Options Framework Admin Styles */
+
+#wpsight-options-wrap .updated {
+	max-width: 65%;
+	min-width: 600px;
+	margin-top: 12px;
+	margin-bottom: 4px;
+	padding: 0;
+}
+#wpsight-options-wrap .updated p {
+	margin: .4em .6em;
+}
+#wpsight-options {
+	max-width: 65%;
+	min-width: 600px;
+	position:relative;
+	z-index: 0;
+	background:#f8f8f8;
+}
+#wpsight-options h3 {
+	cursor: default;
+}
+#wpsight-options p {
+	margin-bottom:0;
+	padding-bottom:10px;
+	line-height: 1.4em;
+}
+#wpsight-options .section {
+	padding:10px 10px 0;
+}
+#wpsight-options .group {
+	padding-bottom:40px;
+}
+#wpsight-options .section .heading {
+	padding:10px 0px;
+	margin:0 0 15px;
+	border-bottom: 1px solid #dfdfdf;
+}
+#wpsight-options .section .controls {
+	float: left;
+	min-width:350px;
+	width: 54%;
+	padding-right:2%;
+}
+#wpsight-options .section .explain {
+	max-width:38%;
+	float: left;
+	font-size: 12px;
+	line-height:16px;
+	color: #777;
+}
+#wpsight-options .section-checkbox .controls {
+	width: 98%;
+}
+#wpsight-options .section-checkbox .explain {
+	max-width:94%;
+}
+#wpsight-options .wpsight-options-input {
+	width:100%;
+}
+#wpsight-options .controls select, #wpsight-options .controls textarea {
+	margin-bottom:10px;
+	width:100%;
+}
+#wpsight-options .section-radio label, #wpsight-options .section-multicheck label {
+	float:left;
+	max-width:90%;
+	line-height: 16px;
+	margin-bottom: 5px;
+}
+#wpsight-options input.checkbox, #wpsight-options input.wpsight-options-radio {
+	width: auto;
+	margin-top:2px;
+	float:left;
+	clear:both;
+}
+.branch-3-7 #wpsight-options input.checkbox,
+.branch-3-7 #wpsight-options input.wpsight-options-radio {
+	width: 25px;
+}
+#wpsight-options .section-typography .controls {
+	float:none;
+	width:auto;
+}
+#wpsight-options .section-typography .explain {
+	float:none;
+	width:auto;
+}
+#wpsight-options .controls .wpsight-options-typography-size {
+	width:80px;
+	float:left
+}
+#wpsight-options .controls .wpsight-options-typography-unit {
+	width:50px;
+	margin-left:5px;
+	float:left
+}
+#wpsight-options .controls .wpsight-options-typography-face {
+	width:100px;
+	margin-left:5px;
+	float:left
+}
+#wpsight-options .controls .wpsight-options-typography-style {
+	width:80px;
+	margin-left:5px;
+	margin-right:5px;
+	float:left
+}
+#wpsight-options .wpsight-options-background-properties {
+	clear:both;
+	margin-top: 18px;	
+}
+#wpsight-options .controls .wpsight-options-background-repeat {
+	width:125px;
+	margin-right:5px;
+	float:left
+}
+#wpsight-options .controls .wpsight-options-background-position {
+	width:125px;
+	margin-right:5px;
+	float:left
+}
+#wpsight-options .controls .wpsight-options-background-attachment {
+	width:125px;
+	margin-right:5px;
+	float:left
+}
+#wpsight-options .section-background .wp-picker-container {
+	margin-bottom:10px;
+}
+#wpsight-options .controls .wpsight-options-radio-img-img {
+	border:3px solid #f9f9f9;
+	margin:0 5px 10px 0;
+	display:none;
+	cursor:pointer;
+	float:left;
+}
+#wpsight-options .controls .wpsight-options-radio-img-selected {
+	border:3px solid #ccc
+}
+#wpsight-options .controls .wpsight-options-radio-img-img:hover {
+	opacity:.8;
+}
+#wpsight-options .controls .wpsight-options-border-width {
+	width:80px;
+	float:left
+}
+#wpsight-options .controls .wpsight-options-border-style {
+	width:120px;
+	float:left
+}
+#wpsight-options .hide {
+	display:none;
+}
+#wpsight-options .wpsight-options-option-image {
+	max-width:340px;
+	margin:3px 0 18px 0;
+}
+#wpsight-options .mini .controls select, #wpsight-options .section .mini .controls {
+	width: 140px;
+}
+#wpsight-options .mini .controls input, #wpsight-options .mini .controls {
+	min-width:140px;
+	width: 140px;
+}
+#wpsight-options .mini .explain {
+	max-width:74%;
+}
+
+/* Editor */
+
+#wpsight-options .section-editor .explain {
+	max-width: 98%;
+	float:none;
+	margin-bottom:5px;
+}
+
+#wpsight-options .mceContentBody,
+#wpsight-options .mceIframeContainer {
+	background-color: #fff !important;
+}
+
+/* Image Uploader */
+
+#wpsight-options .controls input.upload {
+	width:80%;
+}
+#wpsight-options .controls input.upload_button {
+	float:right;
+	border-color:#BBBBBB;
+	cursor:pointer;
+}
+#wpsight-options .controls input.upload_button:hover {
+	border-color:#666666;
+	color:#000;
+}
+#wpsight-options .screenshot {
+	background:#fff url("../img/bg-logo-img.png");
+	float:left;
+	margin-left:1px;
+	position:relative;
+	width:98%;
+	margin:0 0 10px;
+	padding: 5px;
+	display: none;
+}
+
+#wpsight-options .screenshot.has-file {
+	display: block;
+}
+
+#wpsight-options .screenshot img {
+	float:left;
+	max-width:400px;
+}
+
+#wpsight-options .screenshot .mlu_remove {
+	background:url("../img/ico-delete.png") no-repeat;
+	border:medium none;
+	bottom:5px;
+	display:block;
+	float:left;
+	height:16px;
+	padding:0;
+	position:absolute;
+	right:5px;
+	text-indent:-9999px;
+	width:16px;
+}
+
+#wpsight-options .screenshot .no_image .file_link {
+	margin-left: 20px;
+}
+
+#wpsight-options .screenshot .no_image .remove-button {
+	bottom: 0px;
+}
+#wpsight-options .reset-button {
+	float:left;
+	cursor:pointer;
+}
+#wpsight-options .wpsight-options-measurement-feature {
+	float: left;
+	width: 75% !important;
+}
+
+#wpsight-options .wpsight-options-measurement-unit {
+	float: right;
+	width: 23% !important;
+}
+
+.penthouse-options .heading_social .section-info img {
+	padding: 5px;
+	background-color: #505050;
+}
+
+/* Bottom Section */
+
+#wpsight-options-submit {
+	padding: 7px 10px;
+	border-top: 1px solid #ECECEC;
+	background-color: #F1F1F1;
+    background-image: -moz-linear-gradient(center top , #F9F9F9, #ECECEC);
+}
+#wpsight-options .button-primary {
+	float:right;
+}
+#wpsight-options .section:after {
+	content: "";
+	display: table;
+}
+#wpsight-options .section:after {
+	clear: both;
+}

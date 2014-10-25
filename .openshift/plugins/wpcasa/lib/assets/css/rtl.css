@@ -1,0 +1,377 @@
+/**
+ * RTL (right to left) Styles
+ */
+ 
+/* Bootstrap
+================================================== */
+ 
+[class*="span"] {
+	float: right;
+	margin-left: 0;
+	margin-right: 40px;
+}
+
+.row {
+	margin-left: 0;
+	margin-right: -40px;
+}
+
+/* General
+================================================== */
+
+blockquote {
+	padding-left: 0;
+	padding-right: 15px;
+	border-left: 0;
+	border-right: 5px solid #eee;
+}
+
+/* Top
+================================================== */
+
+#top-left {
+	float: right;
+}
+
+#top-right {
+	text-align: left;
+}
+
+#top-left .social-icon {
+	margin-right: 0;
+	margin-left: 5px;
+}
+
+#top-right .social-icon {
+	margin-right: 5px;
+	margin-left: 0;
+}
+
+/* Header / Credit
+================================================== */
+
+#header-left {
+	float: right;
+	text-align: right;
+}
+
+#header-right {
+	right: auto;
+	left: 0;
+	text-align: left;
+}
+
+.credit-left {
+	float: right !important;
+	text-align: right;
+}
+
+.credit-right {
+	float: left;
+	text-align: left;
+}
+
+/* Menus
+================================================== */
+
+.wpsight-menu li {
+	float: right;
+}
+
+.wpsight-menu a {
+	margin-left: 25px;
+	margin-right: 0;
+}
+
+.wpsight-menu-top-left .sf-menu a,
+.wpsight-menu-top-right .sf-menu a {
+	margin-left: 15px;
+	margin-right: 0;
+}
+
+.rtl .tinynav {
+    padding-right: 40px;
+}
+
+/* Slider
+================================================== */
+
+.flexslider .overlay {
+	right: auto;
+	left: 20px;
+}
+
+.flex-direction-nav li {
+	display: block;
+	float: left;
+}
+
+.flex-direction-nav {
+	left: auto;
+	right: 20px;
+}
+
+#sidebar .flex-direction-nav,
+.span3 .flex-direction-nav,
+.span4 .flex-direction-nav {
+	left: auto;
+	right: 0;
+}
+
+/* Search Form
+================================================== */
+
+@media (min-width: 1024px) {
+
+	.listing-search form {
+		padding-left: 0;
+		padding-right: 30px;
+	}
+
+}
+
+.listing-search-field {
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.listing-search-text {
+	margin-right: 0;
+	margin-left: 20px;
+}
+
+.listing-search-field-filter {
+	padding-right: 0;
+	padding-left: 20px;
+}
+
+.listing-search-filter {
+	margin-right: 0;
+	margin-left: 5px;
+}
+
+.listing-search-filter span {
+	padding-left: 0;
+	padding-right: 3px;
+}
+
+/* Widgets
+================================================== */
+
+.call-to-action-button {
+	padding-left: 0;
+	padding-right: 10px;
+	text-align: left;
+}
+
+.listing-features ul {
+	margin: 0 0 10px -30px;
+}
+
+.listing-features li {
+	float: right;
+	margin: 0 0 10px 30px;
+}
+
+.contact-buttons,
+.contact-copy {
+	float: right;
+}
+
+.contact-buttons {
+	margin: 0 0 0 20px;
+}
+
+.captcha-image {
+	float: right;
+}
+
+.captcha-input {
+	float: left;
+}
+
+.first {
+	margin-left: auto;
+	margin-right: 0 !important;
+}
+
+.listing-search-buttons {
+	left: 20px;
+	right: auto;
+}
+
+/* Titles
+================================================== */
+
+.title h1,
+.title h2,
+.title h3 {
+	float: right;
+}
+
+.title-actions {
+	float: left;
+}
+
+.listing-details .title-actions {
+	float: right;
+}
+
+.widget-latest .title-widget {
+	margin-left: 0;
+	margin-right: 40px;
+}
+
+.title-actions-order,
+.title-actions-contact,
+.title-actions-compare,
+.title-actions-fav-print,
+.title-search-map {
+	margin-left: 0;
+	margin-right: 10px;
+}
+
+.title-actions-contact i,
+.title-actions-compare i,
+.title-actions-fav-print i {
+	margin-right: 0;
+	margin-left: 2px;
+}
+
+.title-actions div:last-child {
+	margin-left: 0;
+	margin-right: 10px;
+}
+
+.post-title i, .title i {
+	margin-left: 8px;
+	margin-right: 0;
+}
+
+@media (max-width: 768px) {
+
+	.row {
+		margin-left: 0;
+	  	margin-right: 0;
+	}
+
+	[class*="span"] {
+	  float: right;
+	  margin-left: 0;
+	  margin-right: 20px;
+	}
+	
+	#top {
+		margin-right: 0;
+	}
+	
+	#top-left {
+		float: none;
+	}
+	
+	#top-right {
+		text-align: center;
+	}
+	
+	#header-left,
+	#header-right {
+		float: none;
+		text-align: center;
+	}
+
+	.listing-search-field-radio,
+	.listing-search-filter {
+		margin-right: 18px !important;
+	}
+
+	.radio input[type="radio"], .checkbox input[type="checkbox"] {
+		float: right;
+		margin-left: 0;
+		margin-right: -20px;
+	}
+	
+	.checkbox input[type="checkbox"] {
+		margin-right: -15px;
+	}
+	
+	.listing-search-field-order:last-child {
+	    margin-right: 20px !important;
+	}
+	
+	.flex-direction-nav {
+		right: 0;
+	}
+	
+	.title-actions {
+		float: right !important;
+	}
+	
+	.title-actions div {
+		margin: 0 0 0 10px;
+	}
+	
+	.title-actions div:last-child {
+		margin-left: 10px;
+		margin-right: 0;
+	}
+	
+	.title-actions-order,
+	.title-actions-contact,
+	.title-actions-compare,
+	.title-actions-fav-print,
+	.title-search-map {
+		margin-left: 10px;
+		margin-right: 0;
+	}
+	
+	.widget-latest .title-widget {
+		margin-right: 0;
+	}
+	
+	.call-to-action-button {
+		text-align: center;
+	}
+	
+	.credit-left,
+	.credit-right {
+		float: none !important;
+		text-align: center;
+	}
+	
+	.credit-left {
+		margin-bottom: 20px;
+	}
+	
+	.contact-copy {
+		margin-right: 18px;
+	}
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+	.row {
+		margin-left: 0;
+	  	margin-right: -20px;
+	}
+
+	[class*="span"] {
+	  float: right;
+	  margin-left: 0;
+	  margin-right: 20px;
+	}
+	
+	.widget-latest .title-widget {
+		margin-right: 20px;
+	}
+	
+	.rtl .listing-search-details {
+        margin-left: -18px;
+    }
+
+    .rtl .listing-search-field {
+        margin-right: 0;
+        margin-left: 18px;
+    }
+	
+}

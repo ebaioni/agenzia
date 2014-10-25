@@ -1,0 +1,600 @@
+/*
+	Theme Name:       Ushuaia
+	Theme URI:        http: //wpcasa.com/theme/ushuaia
+	Description:      Child theme for real estate theme framework wpCasa
+	Author:           Simon Rimkus (wpCasa)
+	Author URI:       http: //wpcasa.com/
+	Version:          1.2.1
+	
+	Tags:			  black, blue, gray, white, light, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, fixed-width, flexible-width, custom-background, custom-header, custom-menu, editor-style, featured-images, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready
+	
+	Template:         wpcasa
+	Template Version: 1.3
+	
+	License: 		  GNU General Public License v2.0
+	License URI:      http://www.opensource.org/licenses/gpl-license.php
+*/
+
+/* Import parent theme style.css
+================================================== */
+ 
+@import url("../wpcasa/style.css");
+
+
+/* Body
+================================================== */
+
+body {
+	background-color: #fff;
+}
+
+body,
+label,
+input,
+select {
+	font-family: 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 13px;	
+}
+
+body.ps-active, body.ps-building, div.ps-active, div.ps-building {
+	background: #fff !important;
+}
+
+pre {
+	border-color: #cecece;
+}
+
+.radio, .checkbox {
+	white-space: nowrap;
+}
+
+/* Titles
+================================================== */
+
+.title,
+.post-title,
+h1, h2, h3, h4, h5, h6,
+#logo-description {
+	line-height: 1;
+	font-family: 'HelveticaNeueLight', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	font-stretch: normal;
+	letter-spacing: normal;
+}
+
+.title {
+	border-color: #cecece;
+}
+
+#ushuaia-slider-home .flexslider .overlay h3 {
+	margin-bottom: 20px;
+}
+
+.call-to-action-text h2 {
+	margin-bottom: 15px;
+	font-size: 24px;
+}
+
+.title-actions .btn-mini {
+	padding-bottom: 2px;
+}
+
+/* Link Colors
+================================================== */
+
+a,
+a:visited,
+.listing-search-buttons div:hover,
+.actions-favorites:hover {
+	color: #485a70;
+}
+
+.title a:hover, .post-title a:hover,
+.listing-features a:hover {
+	color: #485a70 !important;
+}
+
+.title a:visited, .post-title a:visited,
+.listing-features a:visited {
+	color: #505050;
+}
+
+.title-actions .btn:hover {
+	color: inherit !important;
+}
+
+.call-to-action-text h2 {
+	line-height: 1.2;
+}
+
+p a {
+	text-decoration: underline;
+}
+
+a.btn {
+	text-decoration: none !important;
+}
+
+
+/* Menus
+================================================== */
+
+.wpsight-menu {
+	font-family: 'HelveticaNeueLight', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	font-stretch:normal;
+	text-transform: uppercase;
+}
+
+.wpsight-menu,
+.wpsight-menu .sf-menu li,
+.wpsight-menu .sf-menu a {
+	height: 50px;
+	line-height: 50px;
+	font-size: 13px;
+}
+
+#menu-wrap {
+	border-top: 1px solid #f4f4f4;
+	border-bottom: 1px solid #f4f4f4;
+	background: #fff;
+}
+
+.wpsight-menu-main {
+	background: #fff;
+}
+
+.wpsight-menu-main a,
+.wpsight-menu-main a:active {
+	color: inherit;
+	background: none !important;
+}
+
+/** WPCASA MENU */
+
+.wpsight-menu,
+.wpsight-menu .sf-menu li,
+.wpsight-menu .sf-menu a {
+	height: 50px;
+	line-height: 50px;
+}
+
+.wpsight-menu .sf-menu li:hover ul,
+.wpsight-menu .sf-menu li.sfHover ul {
+	left: -15px;
+	top: 50px;
+}
+
+.wpsight-menu .sf-menu li li:hover ul,
+.wpsight-menu .sf-menu li li.sfHover ul {
+	left: 75px;
+	top: -5px !important;
+}
+
+.wpsight-menu .sf-menu ul {
+	height: auto;
+	margin: 0;
+	padding: 5px 0;
+	background: #fff;
+	border: 1px solid #f4f4f4;
+	border-top: none;
+	z-index: 1;
+}
+
+.wpsight-menu-top-left .sf-menu ul {
+	background: url(../wpcasa/lib/assets/img/bg-trans-light-50.png);
+	border-top: 1px solid #fff;
+}
+
+.wpsight-menu .sf-menu li li ul {
+	padding-top: 4px;
+	border-top: 1px solid #f4f4f4;
+}
+
+.wpsight-menu .sf-menu li li a,
+.wpsight-menu .sf-menu li li a:visited {
+	padding: 8px 15px;
+	line-height: 1;
+}
+
+.wpsight-menu .sf-menu li li a:hover {
+	color: #485a70;
+}
+
+.wpsight-menu .sf-menu li li a:active {
+	top: 0px;
+}
+
+.wpsight-menu-top-left .tinynav {
+	margin-top: 2px;
+	background-color: #f9f9fa;
+	border-color: #f4f4f4;
+	color: inherit;
+}
+
+.wpsight-menu-main .sf-menu a,
+.wpsight-menu-main .sf-menu a:visited {
+	color: inherit;
+}
+
+.wpsight-menu-main .tinynav {
+	margin-top: 3px;
+	background-color: #f9f9fa;
+	border-color: #f4f4f4;
+	color: inherit;
+}
+
+@media (max-width: 1024px) {
+
+	.wpsight-menu-top-left,
+	.wpsight-menu-top-left .sf-menu li,
+	.wpsight-menu-top-left .sf-menu a {
+		height: 45px;
+		line-height: 45px;
+	}
+	
+	#top .social-icons {
+		margin-top: 20px !important;
+	}
+}
+
+@media (max-width: 768px) {
+
+	#top-right {
+		padding-bottom: 10px;
+	}
+
+	#top .social-icons {
+		margin-top: 0 !important;
+	}
+	
+	#outer {
+		background-position: center -100px !important;
+	}
+	
+	#header-right {
+		bottom: auto !important;
+	}
+
+}
+
+
+/* Top
+================================================== */
+
+#top-wrap {
+	padding-top: 0;
+	padding-bottom: 0;
+	background: url(../wpcasa/lib/assets/img/bg-trans-light-50.png);
+	border-bottom: 1px solid #f4f4f4;
+}
+
+#top .social-icons {
+	margin-top: 17px;
+	margin-bottom: 17px;
+}
+
+
+/* Header
+================================================== */
+
+#header {
+	padding: 40px 0;
+}
+
+#header-right {
+	bottom: 40px;
+	font-family: 'HelveticaNeueLight', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	font-stretch: normal;
+	text-transform: uppercase;
+}
+
+#header-right .icon-phone {
+	color: #485a70;
+}
+
+#find-home {
+	display: inline-block;
+	line-height: 1;
+	margin-top: 5px;
+	padding-top: 8px;
+	border-top: 1px solid #f4f4f4;
+	font-size: 25px;
+	text-transform: none;
+	letter-spacing: 1px;
+}
+
+/* Slider
+================================================== */
+
+#ushuaia-slider-home .flexslider .overlay a {
+	text-decoration: none;
+}
+
+#ushuaia-slider-home .flexslider .overlay a:hover {
+	text-decoration: underline;
+}
+
+#ushuaia-slider-home {
+	position: relative;
+	margin-top: -41px;
+	margin-bottom: 40px;
+	background: #fff;
+}
+
+#ushuaia-slider-home img {
+	width: 100%;
+	height: auto;
+	max-height: 600px;
+}
+
+#ushuaia-slider-home .flexslider table {
+	position: absolute;
+	bottom: 50px;
+	width: 100%;
+	margin-bottom: 0;
+}
+
+#ushuaia-slider-home .flexslider td {
+	border: 0;
+}
+
+#ushuaia-slider-home .flexslider .overlay-wrap-center,
+#ushuaia-slider-home .flexslider .overlay-wrap-center-inner {
+	position: relative;
+	width: 980px;
+}
+
+#ushuaia-slider-home .flexslider .overlay-wrap-center-inner {
+	height: 100%;
+}
+
+#ushuaia-slider-home .slide-align-left .overlay-wrap-left {
+	background: url(../wpcasa/lib/assets/img/bg-trans-50.png);
+}
+
+#ushuaia-slider-home .slide-align-right .overlay-wrap-right {
+	background: url(../wpcasa/lib/assets/img/bg-trans-50.png);
+}
+
+#ushuaia-slider-home .flexslider .overlay-wrap {
+	min-height: 60px;
+}
+
+#ushuaia-slider-home .flexslider .overlay-wrap.no-overlay {
+	min-height: 100px;
+}
+
+#ushuaia-slider-home .flexslider .overlay {
+	position: relative;
+	right: auto;
+	bottom: auto;
+	width: 40%;
+	max-height: 80%;
+	min-height: 25px;
+	padding: 35px 40px 20px 90px;
+	background: url(../wpcasa/lib/assets/img/bg-trans-50.png);
+	color: #fff;
+	overflow: hidden;
+	text-shadow: 1px 1px 2px #222;
+}
+
+#ushuaia-slider-home .slide-align-left .overlay.no-prevnext {
+	padding-left: 0px;
+}
+
+#ushuaia-slider-home .slide-align-right .overlay {
+	float: right;
+	padding-left: 40px;
+	padding-right: 90px;
+}
+
+#ushuaia-slider-home .slide-align-right .overlay.no-prevnext {
+	padding-right: 0px;
+}
+
+#ushuaia-slider-home .flexslider .overlay h3,
+#ushuaia-slider-home .flexslider .overlay h3 a {
+	color: inherit;
+	font-size: 24px;
+	text-decoration: none;
+}
+
+#ushuaia-slider-home .flexslider .overlay h3 a:hover {
+	text-decoration: underline;
+}
+
+#ushuaia-slider-home-nav {
+	position: absolute;
+	top: 0;
+	width: 50px;
+	height: 100% !important;
+	min-height: 100px;
+	background: #eeeeee; /* Old browsers */
+	background: -moz-linear-gradient(left,  #eeeeee 0%, #ffffff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#eeeeee), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #eeeeee 0%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #eeeeee 0%,#ffffff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #eeeeee 0%,#ffffff 100%); /* IE10+ */
+	background: linear-gradient(to right,  #eeeeee 0%,#ffffff 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+}
+
+.slide-align-left #ushuaia-slider-home-nav {
+	left: 0;
+	right: auto;
+}
+
+.slide-align-right #ushuaia-slider-home-nav {
+	right: 0;
+	left: auto;
+}
+
+#ushuaia-slider-home-nav span {
+	display: block;
+	height: 49%;
+	min-height: 40px;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-indent: -9999px;
+	cursor: pointer;
+}
+
+#ushuaia-slider-home-nav span:hover {
+	background-color: #f4f4f4;
+}
+
+#ushuaia-slider-home-nav .next {
+	background-image: url(images/bg-slider-next.png);
+	border-bottom: 1px solid #e0e0e0;
+}
+
+#ushuaia-slider-home-nav .prev {
+	background-image: url(images/bg-slider-prev.png);
+	border-top: 1px solid #fff;
+}
+
+#ushuaia-slider-home .overlay-left {
+	position: relative;
+	background: url(../wpcasa/lib/assets/img/bg-trans-50.png);
+}
+
+@media (max-width: 1024px) {
+
+	#ushuaia-slider-home .flexslider table {
+		bottom: 30px;
+	}
+	
+	#ushuaia-slider-home .flexslider .overlay-wrap-center,
+	#ushuaia-slider-home .flexslider .overlay-wrap-center-inner {
+		width: 724px;
+	}
+	
+	#ushuaia-slider-home .flexslider .overlay {
+		padding: 25px 30px 10px 80px;
+		min-height: 65px;
+	}
+	
+	#ushuaia-slider-home .overlay p,
+	#ushuaia-slider-home .overlay .listing-details-overview {
+		display: none;
+	}
+
+}
+
+@media (max-width: 768px) {
+
+	#ushuaia-slider-home .flexslider table {
+		bottom: 30px;
+	}
+	
+	 #ushuaia-slider-home .flexslider .overlay-wrap {
+        min-height: 0;
+    }
+	
+	#ushuaia-slider-home .flexslider .overlay-wrap-center,
+	#ushuaia-slider-home .flexslider .overlay-wrap-center-inner {
+		width: 100%;
+	}
+
+	#ushuaia-slider-home .overlay-wrap-left,
+	#ushuaia-slider-home .overlay-wrap-right {
+		width: inherit;
+		display: none;
+	}
+	
+	#ushuaia-slider-home-nav {
+		position: relative;
+		width: 30px;
+		min-height: 60px;
+	}
+
+}
+
+
+/* Properties
+================================================== */
+
+.listing-details-overview,
+.post-navigation,
+.attachment-navigation {
+	border-color: #cecece;
+}
+
+.listing-map-status {
+	display: block;
+	margin-top: -10px;
+	margin-bottom: 10px;
+	font-style: italic;
+}
+
+span.favorites-remove:hover {
+	background-color: #485a70;
+}
+
+
+/* Buttons
+================================================== */
+
+.btn-primary {
+  background-color: #485a70;
+  background-image: -moz-linear-gradient(top, #5e7592, #485a70);
+  background-image: -ms-linear-gradient(top, #5e7592, #485a70);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#5e7592), to(#485a70));
+  background-image: -webkit-linear-gradient(top, #5e7592, #485a70);
+  background-image: -o-linear-gradient(top, #5e7592, #485a70);
+  background-image: linear-gradient(top, #5e7592, #485a70);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5e7592', endColorstr='#485a70', GradientType=0);
+  border-color: #485a70 #485a70 #142d5c;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.disabled,
+.btn-primary[disabled] {
+  background-color: #485a70;
+}
+.btn-primary:active, .btn-primary.active {
+  background-color: #183871 \9;
+}
+
+button.btn-mini {
+	font-family: 'HelveticaNeueLight', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	font-stretch: normal;
+	letter-spacing: normal;
+}
+
+
+/* Widgets
+================================================== */
+
+.flex-direction-nav .flex-prev:hover,
+.flex-direction-nav .flex-next:hover {
+	background-color: #485a70;
+}
+
+.listing-contact label.checkbox {
+	width: auto;
+	white-space: nowrap;
+}
+
+.listing-gallery .image-gallery {
+	margin-bottom: 0;
+}
+
+
+/* Footer
+================================================== */
+
+#footer .widget-call-to-action-wrap {
+	margin-bottom: 40px;
+}
+
+#credit {
+	border-top: 1px dotted #cecece;
+}

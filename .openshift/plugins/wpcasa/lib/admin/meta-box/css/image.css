@@ -1,0 +1,29 @@
+/* Uploaded image */
+.rwmb-images {
+	overflow: hidden;
+}
+.rwmb-images li {
+	margin: 0 10px 10px 0;
+	padding:9px; border:1px solid #e4e4e4; background: #fff;
+	float: left;
+	width: 150px;
+	height: 150px;
+	text-align: center;
+	cursor: move;
+	position: relative;
+}
+.rwmb-images img {
+	width: 150px;
+	height: 150px;
+}
+.rwmb-image-bar {
+	color: #fff;
+	background: #333;
+	position: absolute;
+	bottom: -1px;
+	right: -1px;
+	padding: 5px 10px;
+}
+.rwmb-image-bar a {
+	color: #fff;
+}

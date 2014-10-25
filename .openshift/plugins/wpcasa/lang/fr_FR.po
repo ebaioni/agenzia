@@ -1,0 +1,4326 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wpCasa v1.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-08-21 08:38:17+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: archive.php:42
+#@ wpsight
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:44
+#@ wpsight
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:49
+#@ wpsight
+msgid "Archives"
+msgstr "Archives"
+
+#: comments.php:16
+#@ wpsight
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Cet article est protégé par un mot de passe. Veuillez entrer le mot de passe pour voir les commentaires."
+
+#: comments.php:37
+#: lib/shortcodes/post.php:189
+#@ wpsight
+msgid "Comments"
+msgstr "Commentaires"
+
+#: comments.php:59
+#@ wpsight
+msgid "No comments so far."
+msgstr "Aucun commentaire à ce jour."
+
+#: comments.php:64
+#@ wpsight
+msgid "Comments are closed."
+msgstr "Commentaires clos."
+
+#: comments.php:93
+#@ wpsight
+msgid "Trackbacks"
+msgstr "Rétroliens"
+
+#: comments.php:146
+#: lib/functions/contact.php:126
+#: lib/functions/contact.php:143
+#@ wpsight
+msgid "Name"
+msgstr "Nom"
+
+#: comments.php:153
+#: lib/framework/agents.php:252
+#: lib/functions/contact.php:128
+#: lib/functions/contact.php:144
+#: lib/widgets/listing-contact.php:107
+#: lib/wpcasa/widgets/_deprecated/property-contact.php:106
+#: loop-author.php:119
+#@ wpsight
+msgid "Email"
+msgstr "Email"
+
+#: comments.php:160
+#: lib/framework/agents.php:281
+#: loop-author.php:148
+#@ wpsight
+msgid "Website"
+msgstr "Site internet"
+
+#: comments.php:168
+#@ wpsight
+msgid "Comment"
+msgstr "Commentaire"
+
+#: comments.php:174
+#, php-format
+#@ wpsight
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Vous devez être <a href=\"%s\">connecté</a> pour poster un commentaire."
+
+#: comments.php:178
+#, php-format
+#@ wpsight
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr "Connecté en tant que <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Déconnexion de ce compte\">Déconnexion ?</a>"
+
+#: comments.php:180
+#: lib/shortcodes/post.php:187
+#@ wpsight
+msgid "Leave a Comment"
+msgstr "Laisser un commentaire"
+
+#: comments.php:181
+#@ wpsight
+msgid "Your email address will not be published."
+msgstr "Votre adresse email ne sera publiée."
+
+#: comments.php:182
+#, php-format
+#@ wpsight
+msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes: %s"
+msgstr "Vous pouvez utiliser ces <abbr title=\"HyperText Markup Language\">HTML</abbr> tags et attributs: %s"
+
+#: comments.php:183
+#@ wpsight
+msgid "Cancel reply"
+msgstr "Annuler la réponse"
+
+#: comments.php:185
+#@ wpsight
+msgid "Post Comment"
+msgstr "Poster un commentaire"
+
+#: lib/admin/options/options-framework.php:163
+#: lib/admin/options/options-framework.php:384
+#@ wpsight
+msgid "Theme Options"
+msgstr "Options du thème"
+
+#: lib/admin/options/options-framework.php:241
+#@ wpsight
+msgid "Save Options"
+msgstr "Enregistrer les options"
+
+#: lib/admin/options/options-framework.php:242
+#@ wpsight
+msgid "Restore Defaults"
+msgstr "Restaurer les valeurs par défaut"
+
+#: lib/admin/options/options-framework.php:242
+#@ wpsight
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr "Cliquer sur OK pour remettre à zéro. Aucun paramètre du thème ne sera perdu !"
+
+#: lib/admin/options/options-framework.php:328
+#@ wpsight
+msgid "Options saved"
+msgstr "Options enregistrées"
+
+#: lib/admin/options/options-media-uploader.php:69
+#@ wpsight
+msgid "View File"
+msgstr "Voir le fichier"
+
+#: lib/admin/options/options-media-uploader.php:79
+#: lib/admin/options/options-media-uploader.php:110
+#@ wpsight
+msgid "Upload"
+msgstr "Télécharger"
+
+#: lib/admin/options.php:32
+#@ wpsight
+msgid "General"
+msgstr "Général"
+
+#: lib/admin/customizer.php:33
+#: lib/admin/options.php:38
+#@ wpsight
+msgid "Logo"
+msgstr "Logo"
+
+#: lib/admin/options.php:39
+#: lib/admin/options.php:54
+#@ wpsight
+msgid "Please enter a URL or upload an image."
+msgstr "Veuillez entrer un URL ou télécharger une image."
+
+#: lib/admin/options.php:46
+#@ wpsight
+msgid "Text Logo"
+msgstr "Texte du logo"
+
+#: lib/admin/options.php:47
+#@ wpsight
+msgid "Please enter a text logo that will be displayed instead of the above image logo."
+msgstr "Veuillez entrer un texte du logo qui sera affiché à la plage de l'image du logo ci-dessus."
+
+#: lib/admin/customizer.php:55
+#: lib/admin/options.php:53
+#@ wpsight
+msgid "Favicon"
+msgstr "Favicon"
+
+#: lib/admin/options.php:60
+#@ wpsight
+msgid "Custom RSS"
+msgstr "Custom RSS"
+
+#: lib/admin/options.php:61
+#@ wpsight
+msgid "Please enter a custom RSS URL (e.g. Feedburner)."
+msgstr "Veuillez entrer un URL RSS personnalisé (ex : Feedburner)."
+
+#: lib/admin/options.php:67
+#@ wpsight
+msgid "Custom CSS"
+msgstr "Custom CSS"
+
+#: lib/admin/options.php:68
+#@ wpsight
+msgid "Add custom css to the head of your theme."
+msgstr "Ajouter un css personnalisé en en-tête de votre thème."
+
+#: lib/admin/options.php:74
+#@ wpsight
+msgid "Tracking Code"
+msgstr "Code de traçabilité"
+
+#: lib/admin/options.php:75
+#@ wpsight
+msgid "Insert your tracking code here (e.g. Google Analytics). This code will be added to the footer of the theme."
+msgstr "Insérer votre tracking code ici (ex : Google Analytics). Ce code sera ajouté en pied de page du thème."
+
+#: lib/admin/meta-boxes.php:703
+#: lib/admin/meta-boxes.php:742
+#: lib/admin/options.php:108
+#@ wpsight
+msgid "Layout"
+msgstr "Disposition"
+
+#: lib/admin/options.php:115
+#: lib/admin/options.php:198
+#@ wpsight
+msgid "You can add custom HTML and/or shortcodes, which will be automatically inserted into your theme."
+msgstr "Vous pouvez ajouter du HTML personnalisé et/ou shortcodes, qui seront automatiquement insérés dans votre thème."
+
+#: lib/admin/options.php:116
+#@ wpsight
+msgid "Need expert advice? Call us now - 555 555 555"
+msgstr "Besoin du service d'un expert ? Appeler maintenant au 555 555 555"
+
+#: lib/admin/options.php:125
+#: lib/admin/options.php:141
+#@ wpsight
+msgid "Archive Layout"
+msgstr "Disposition des archives"
+
+#: lib/admin/options.php:126
+#: lib/admin/options.php:142
+#@ wpsight
+msgid "Please remember that the layout is also limited through the sidebar. If the archive sidebar is active, only option #1 and #3 will be possible."
+msgstr "Souvenez-vous que les agencements et dispositions sont également limités à travers le sidebar. Si le sidebar des archives est actif, seules les options #1 et #3 seront possibles."
+
+#: lib/admin/options.php:197
+#@ wpsight
+msgid "Credit"
+msgstr "Crédit"
+
+#: lib/admin/options.php:198
+#@ wpsight
+msgid " Available shortcodes"
+msgstr "Shortcodes disponibles"
+
+#: lib/admin/options.php:246
+#@ wpsight
+msgid "Measurement Unit"
+msgstr "Unité de mesure"
+
+#: lib/admin/options.php:256
+#@ wpsight
+msgid "Currency"
+msgstr "Monnaie"
+
+#: lib/admin/options.php:266
+#: lib/admin/options.php:274
+#@ wpsight
+msgid "Other Currency"
+msgstr "Autre monnaie"
+
+#: lib/admin/options.php:266
+#@ wpsight
+msgid "Abbreviation"
+msgstr "Abréviation"
+
+#: lib/admin/options.php:268
+#@ wpsight
+msgid "Please insert the abbreviation of your currency (e.g. <code>EUR</code>)."
+msgstr "Veuillez insérer l'abréviation de votre monnaie (ex : <code>EUR</code>)."
+
+#: lib/admin/options.php:274
+#@ wpsight
+msgid "Symbol"
+msgstr "Symbole"
+
+#: lib/admin/options.php:276
+#@ wpsight
+msgid "Please insert the currency symbol or HTML entity (e.g. <code>&amp;euro;</code>)."
+msgstr "Veuillez insérer le symbole de la monnaie ou l'entité HTML (ex : <code>&amp;euro;</code>)."
+
+#: lib/admin/options.php:282
+#@ wpsight
+msgid "Currency Symbol"
+msgstr "Symbole de la monnaie"
+
+#: lib/admin/options.php:283
+#@ wpsight
+msgid "Please select the position of the currency symbol."
+msgstr "Veuillez sélectionner la position du symbole de la monnaie."
+
+#: lib/admin/options.php:287
+#@ wpsight
+msgid "Before the value"
+msgstr "Avant la valeur"
+
+#: lib/admin/options.php:287
+#@ wpsight
+msgid "After the value"
+msgstr "Après la valeur"
+
+#: lib/admin/options.php:291
+#@ wpsight
+msgid "Thousands Separator"
+msgstr "Séparateur de milliers"
+
+#: lib/admin/options.php:296
+#@ wpsight
+msgid "Comma (e.g. 1,000,000)"
+msgstr "Virgule (ex : 1,000,000)"
+
+#: lib/admin/options.php:316
+#@ wpsight
+msgid "Standard Feature"
+msgstr "Caractéristique standard"
+
+#: lib/admin/options.php:331
+#@ wpsight
+msgid "Rental Periods"
+msgstr "Périodes de location"
+
+#: lib/admin/options.php:332
+#@ wpsight
+msgid "Please check the box to edit the rental periods."
+msgstr "Veuillez vérifier la boîte pour modifier les périodes de location."
+
+#: lib/admin/options.php:345
+#@ wpsight
+msgid "Rental Period"
+msgstr "Période de location"
+
+#: lib/functions/contact.php:130
+#: lib/functions/contact.php:145
+#: lib/functions/listings.php:902
+#@ wpsight
+msgid "Phone"
+msgstr "Téléphone"
+
+#: lib/functions/contact.php:132
+#: lib/functions/contact.php:146
+#@ wpsight
+msgid "Message"
+msgstr "Message"
+
+#: lib/admin/options.php:379
+#@ wpsight
+msgctxt "options"
+msgid "Search"
+msgstr "Recherche"
+
+#: lib/admin/options.php:398
+#@ wpsight
+msgid "Show Search on"
+msgstr "Voir la recherche sur"
+
+#: lib/admin/options.php:423
+#@ wpsight
+msgid "Options"
+msgstr "Options"
+
+#: lib/admin/options.php:424
+#@ wpsight
+msgid "Please select the main search options to display in the search form."
+msgstr "Veuillez sélectionner les principales options de recherche à afficher dans le formulaire de recherche."
+
+#: lib/admin/options.php:434
+#: lib/framework/search.php:72
+#@ wpsight
+msgid "Advanced Search"
+msgstr "Recherche avancée"
+
+#: lib/admin/options.php:435
+#@ wpsight
+msgid "Please check the box to enable advanced search."
+msgstr "Veuillez vérifier la boîte pour permettre la recherche avancée."
+
+#: lib/framework/search.php:77
+#@ wpsight
+msgid "Orderby"
+msgstr "Trier par"
+
+#: lib/framework/search.php:78
+#: lib/functions/search.php:106
+#@ wpsight
+msgid "Order"
+msgstr "Trier"
+
+#: lib/admin/options.php:458
+#@ wpsight
+msgid "Advanced Options"
+msgstr "Options avancées"
+
+#: lib/admin/options.php:459
+#@ wpsight
+msgid "Please select the advanced search options to display in the search form."
+msgstr "Veuillez sélectionner les options de recherche avancée à afficher dans le formulaire de recherche."
+
+#: lib/admin/options.php:472
+#@ wpsight
+msgid "Advanced Filters"
+msgstr "Filtres supplémentaires"
+
+#: lib/admin/options.php:473
+#@ wpsight
+msgid "Please check the box to enable advanced filters."
+msgstr "Veuillez vérifier la boîte pour permettre les filtres supplémentaires."
+
+#: lib/admin/options.php:500
+#: lib/widgets/listings-latest.php:343
+#: lib/widgets/listings-slider.php:416
+#: lib/widgets/slider.php:345
+#: lib/wpcasa/widgets/_deprecated/properties-latest.php:321
+#: lib/wpcasa/widgets/_deprecated/properties-slider.php:390
+#: lib/wpcasa/widgets/_deprecated/slider.php:345
+#@ wpsight
+msgid "Filter"
+msgstr "Filtrer"
+
+#: lib/admin/options.php:501
+#@ wpsight
+msgid "Please select a feature."
+msgstr "Veuillez sélectionner une caractéristique."
+
+#: lib/admin/options.php:540
+#: lib/admin/options.php:584
+#: lib/admin/options.php:593
+#@ wpsight
+msgid "Social"
+msgstr "Réseaux sociaux"
+
+#: lib/admin/options.php:555
+#@ wpsight
+msgid "Available Icons"
+msgstr "Icônes disponibles"
+
+#: lib/admin/options.php:584
+#: lib/widgets/spaces.php:289
+#: lib/wpcasa/widgets/_deprecated/spaces.php:287
+#@ wpsight
+msgid "Icon"
+msgstr "Icône"
+
+#: lib/admin/options.php:585
+#@ wpsight
+msgid "Please select an icon."
+msgstr "Veuillez sélectionner un icône."
+
+#: lib/admin/options.php:593
+#: lib/widgets/spaces.php:408
+#: lib/wpcasa/widgets/_deprecated/spaces.php:406
+#@ wpsight
+msgid "Link"
+msgstr "Lien"
+
+#: lib/admin/options.php:594
+#@ wpsight
+msgid "Please enter the URL to your social account."
+msgstr "Veuillez entrer l'URL de votre compte de réseaux sociaux."
+
+#: contact/email-listing.php:101
+#: lib/admin/meta-boxes.php:138
+#: lib/framework/search.php:74
+#: lib/framework/taxonomies.php:264
+#: lib/functions/search.php:98
+#@ wpsight
+msgid "Price"
+msgstr "Prix"
+
+#: lib/admin/meta-boxes.php:140
+#: lib/framework/listings.php:425
+#: lib/functions/search.php:18
+#@ wpsight
+msgid "Status"
+msgstr "Statut"
+
+#: lib/admin/meta-boxes.php:141
+#@ wpsight
+msgid "Period"
+msgstr "Période"
+
+#: lib/admin/meta-boxes.php:142
+#@ wpsight
+msgid "Availability"
+msgstr "Disponibilité"
+
+#: lib/admin/meta-boxes.php:355
+#@ wpsight
+msgid "Please notice!"
+msgstr "Veuillez le noter !"
+
+#: lib/wpcasa/filters/filters.php:253
+#@ wpsight
+msgid "Property is sold or rented"
+msgstr "Bien vendu ou loué"
+
+#: lib/admin/meta-boxes.php:208
+#: lib/functions/helpers.php:613
+#: lib/shortcodes/listings.php:314
+#@ wpsight
+msgid "ID"
+msgstr "N°"
+
+#: lib/admin/meta-boxes.php:336
+#@ wpsight
+msgid "Address"
+msgstr "Adresse"
+
+#: lib/admin/meta-boxes.php:337
+#@ wpsight
+msgid "e.g. <code>Marbella, Spain</code> or <code>Platz der Republik 1, 10557 Berlin</code>"
+msgstr "ex : <code>Marbella, Spain</code> ou <code>Platz der Republik 1, 10557 Berlin</code>"
+
+#: lib/admin/meta-boxes.php:344
+#@ wpsight
+msgid "Geo code"
+msgstr "Geo code"
+
+#: lib/admin/meta-boxes.php:345
+#@ wpsight
+msgid "Latitude and longitude (e.g. <code>36.509937, -4.886352</code>)"
+msgstr "Latitude et longitude (ex : <code>36.509937, -4.886352</code>)"
+
+#: lib/admin/meta-boxes.php:352
+#: lib/widgets/listing-gallery.php:239
+#: lib/wpcasa/widgets/_deprecated/property-gallery.php:241
+#@ wpsight
+msgid "Exclude"
+msgstr "Exclure"
+
+#: lib/admin/meta-boxes.php:503
+#: lib/admin/meta-boxes.php:619
+#@ wpsight
+msgid "Right sidebar"
+msgstr "Sidebar de droite"
+
+#: lib/admin/meta-boxes.php:504
+#: lib/admin/meta-boxes.php:620
+#@ wpsight
+msgid "No sidebar"
+msgstr "Pas de sidebar"
+
+#: lib/admin/meta-boxes.php:505
+#: lib/admin/meta-boxes.php:621
+#@ wpsight
+msgid "Left sidebar"
+msgstr "Sidebar de gauche"
+
+#: lib/admin/meta-boxes.php:705
+#: lib/admin/meta-boxes.php:744
+#@ wpsight
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: lib/admin/meta-boxes.php:639
+#: lib/admin/meta-boxes.php:711
+#: lib/widgets/divider.php:81
+#: lib/widgets/spaces.php:383
+#: lib/wpcasa/widgets/_deprecated/divider.php:81
+#: lib/wpcasa/widgets/_deprecated/spaces.php:381
+#@ wpsight
+msgid "left"
+msgstr "gauche"
+
+#: lib/admin/meta-boxes.php:640
+#: lib/admin/meta-boxes.php:712
+#: lib/widgets/divider.php:83
+#: lib/widgets/spaces.php:384
+#: lib/wpcasa/widgets/_deprecated/divider.php:83
+#: lib/wpcasa/widgets/_deprecated/spaces.php:382
+#@ wpsight
+msgid "right"
+msgstr "droite"
+
+#: lib/admin/meta-boxes.php:641
+#: lib/admin/meta-boxes.php:713
+#: lib/widgets/spaces.php:291
+#: lib/widgets/spaces.php:309
+#: lib/widgets/spaces.php:382
+#: lib/wpcasa/widgets/_deprecated/spaces.php:289
+#: lib/wpcasa/widgets/_deprecated/spaces.php:307
+#: lib/wpcasa/widgets/_deprecated/spaces.php:380
+#@ wpsight
+msgid "none"
+msgstr "aucun"
+
+#: lib/admin/meta-boxes.php:174
+#@ wpsight
+msgid "None"
+msgstr "Aucun"
+
+#: lib/admin/profile-image.php:47
+#@ wpsight
+msgid "Profile Image"
+msgstr "Propriétés de l'image"
+
+#: lib/admin/profile-image.php:57
+#: lib/widgets/spaces.php:353
+#: lib/wpcasa/widgets/_deprecated/spaces.php:351
+#@ wpsight
+msgid "Remove image"
+msgstr "Supprimer l'image"
+
+#: lib/framework/comments.php:85
+#, php-format
+#@ wpsight
+msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">%s:</span>"
+msgstr "<cite class=\"fn\">%s</cite> <span class=\"says\">%s:</span>"
+
+#: lib/framework/comments.php:85
+#@ wpsight
+msgid "says"
+msgstr "dit"
+
+#: lib/framework/comments.php:91
+#: lib/framework/comments.php:170
+#, php-format
+#@ wpsight
+msgid "%1$s at %2$s"
+msgstr "%1$s à %2$s"
+
+#: lib/framework/comments.php:93
+#: lib/framework/comments.php:172
+#@ wpsight
+msgid "Edit"
+msgstr "Modifier"
+
+#: lib/framework/comments.php:100
+#: lib/framework/comments.php:179
+#@ wpsight
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en cours d'approbation"
+
+#: lib/framework/comments.php:108
+#@ wpsight
+msgid "Reply"
+msgstr "Réponse"
+
+#: lib/framework/comments.php:108
+#@ wpsight
+msgid "Log in to reply"
+msgstr "Connexion pour répondre"
+
+#: lib/framework/comments.php:164
+#, php-format
+#@ wpsight
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr "<cite class=\"fn\">%s</cite>"
+
+#: lib/framework/header.php:102
+#@ wpsight
+msgid "Select a page"
+msgstr "Sélectionner une page"
+
+#: lib/framework/main.php:294
+#@ wpsight
+msgid "Thank You!"
+msgstr "Merci !"
+
+#: lib/framework/main.php:296
+#, php-format
+#@ wpsight
+msgid "Thank you very much for using the <strong>%1$s</strong> theme."
+msgstr "Tous nos remerciements pour avoir choisi le thème <strong>%1$s</strong>."
+
+#: lib/framework/main.php:302
+#@ wpsight
+msgid "What Next?"
+msgstr "Qu'il y a-t-il après ?"
+
+#: lib/framework/main.php:304
+#@ wpsight
+msgid "Add some content"
+msgstr "Ajouter du contenu"
+
+#: lib/framework/main.php:304
+#@ wpsight
+msgid "post"
+msgstr "article"
+
+#: lib/framework/main.php:304
+#@ wpsight
+msgid "page"
+msgstr "page"
+
+#: lib/framework/main.php:305
+#@ wpsight
+msgid "Make your settings in the theme options"
+msgstr "Saisissez vos paramètres dans les options du thème"
+
+#: lib/framework/main.php:305
+#@ wpsight
+msgid "Theme options"
+msgstr "Options du thème"
+
+#: lib/framework/main.php:306
+#@ wpsight
+msgid "Drag widgets to the home page widget area"
+msgstr "Faites glisser les widgets à la zone de widget de la page d'accueil"
+
+#: lib/framework/main.php:306
+#@ wpsight
+msgid "Edit widgets"
+msgstr "Modifier les widgets"
+
+#: lib/framework/main.php:307
+#@ wpsight
+msgid "Add items to the main menu"
+msgstr "Ajouter des éléments au menu principal"
+
+#: lib/framework/main.php:307
+#: lib/functions/menus.php:96
+#@ wpsight
+msgid "Create a custom menu"
+msgstr "Créer un menu personnalisé"
+
+#: lib/framework/main.php:312
+#@ wpsight
+msgid "Example Content?"
+msgstr "Exemple de contenu ?"
+
+#: lib/framework/main.php:313
+#@ wpsight
+msgid "To get started with the theme you may also want to upload some dummy content (also see <a href=\"http://codex.wordpress.org/Importing_Content#WordPress\" target=\"_blank\">codex</a> about importing content)"
+msgstr "Pour vous familiariser avec le thème que vous pouvez également télécharger un contenu factice (voir aussi <a href=\"http://codex.wordpress.org/Importing_Content#WordPress\" target=\"_blank\">codex</a> sur l'importation de contenus)"
+
+#: lib/framework/main.php:314
+#@ wpsight
+msgid "Download XML"
+msgstr "Télécharger le XML"
+
+#: lib/framework/main.php:319
+#@ wpsight
+msgid "Need Help?"
+msgstr "Besoin d'aide ?"
+
+#: lib/framework/main.php:320
+#@ wpsight
+msgid "If you need any help, please head over to the <a href=\"http://wpcasa.com/support/\" target=\"_blank\">support center</a>."
+msgstr "Si vous avez besoin d'aide, veuillez voir le centre d'aide <a href=\"http://wpcasa.com/support/\" target=\"_blank\">"
+
+#: lib/framework/post.php:24
+#: lib/framework/post.php:47
+#@ wpsight
+msgid "in"
+msgstr "dans"
+
+#: lib/framework/post.php:27
+#: lib/framework/post.php:50
+#@ wpsight
+msgid "Sticky"
+msgstr "&Eacute;pingl&eacute;"
+
+#: lib/framework/listings.php:472
+#: lib/framework/post.php:271
+#@ wpsight
+msgid "Next page"
+msgstr "Page suivante"
+
+#: lib/framework/listings.php:473
+#: lib/framework/post.php:272
+#@ wpsight
+msgid "Previous page"
+msgstr "Page précédente"
+
+#: lib/framework/post.php:374
+#: lib/functions/general.php:955
+#: lib/shortcodes/general.php:430
+#: lib/widgets/listings-slider.php:235
+#: lib/widgets/slider.php:176
+#: lib/wpcasa/widgets/_deprecated/properties-slider.php:209
+#: lib/wpcasa/widgets/_deprecated/slider.php:176
+#@ wpsight
+msgid "Previous"
+msgstr "Précédent"
+
+#: lib/framework/post.php:375
+#: lib/functions/general.php:956
+#: lib/shortcodes/general.php:431
+#: lib/widgets/listings-slider.php:236
+#: lib/widgets/slider.php:177
+#: lib/wpcasa/widgets/_deprecated/properties-slider.php:210
+#: lib/wpcasa/widgets/_deprecated/slider.php:177
+#@ wpsight
+msgid "Next"
+msgstr "Suivant"
+
+#: lib/framework/post.php:395
+#@ wpsight
+msgid "Back to Article"
+msgstr "Retour sur l'article"
+
+#: lib/wpcasa/filters/filters.php:236
+#@ wpsight
+msgid "Keyword or Property ID"
+msgstr "Mot clé ou N° du Bien immobilier"
+
+#: lib/framework/search.php:71
+#@ wpsight
+msgid "Search"
+msgstr "Recherche"
+
+#: lib/framework/search.php:73
+#@ wpsight
+msgid "Reset"
+msgstr "Remettre à zéro"
+
+#: lib/framework/search.php:75
+#: lib/functions/search.php:71
+#@ wpsight
+msgid "Price (min)"
+msgstr "Prix (min)"
+
+#: lib/framework/search.php:76
+#: lib/functions/search.php:81
+#@ wpsight
+msgid "Price (max)"
+msgstr "Prix (max)"
+
+#: lib/framework/search.php:79
+#@ wpsight
+msgid "descending"
+msgstr "décroissant"
+
+#: lib/framework/search.php:80
+#@ wpsight
+msgid "ascending"
+msgstr "croissant"
+
+#: lib/framework/search.php:81
+#@ wpsight
+msgid "Results"
+msgstr "Résultats"
+
+#: lib/functions/search.php:97
+#@ wpsight
+msgid "Date"
+msgstr "Date"
+
+#: contact/email-favorites.php:62
+#: contact/email-general.php:62
+#: contact/email-listing.php:62
+#: lib/framework/agents.php:188
+#: lib/framework/listings.php:231
+#: lib/framework/listings.php:264
+#: lib/framework/listings.php:962
+#: lib/functions/contact.php:141
+#@ wpsight
+msgid "Contact"
+msgstr "Contact"
+
+#: lib/admin/options/options-media-uploader.php:81
+#: lib/admin/options/options-media-uploader.php:111
+#: lib/framework/listings.php:372
+#@ wpsight
+msgid "Remove"
+msgstr "Supprimer"
+
+#: lib/functions/general.php:34
+#: lib/functions/general.php:73
+#@ wpsight
+msgid "small"
+msgstr "petit"
+
+#: lib/functions/general.php:42
+#: lib/functions/general.php:81
+#@ wpsight
+msgid "half"
+msgstr "demi"
+
+#: lib/functions/general.php:50
+#: lib/functions/general.php:89
+#@ wpsight
+msgid "big"
+msgstr "grand"
+
+#: lib/functions/general.php:58
+#: lib/functions/general.php:97
+#@ wpsight
+msgid "full"
+msgstr "complet"
+
+#: lib/functions/general.php:163
+#@ wpsight
+msgid "Read more"
+msgstr "Plus d'info"
+
+#: lib/functions/general.php:567
+#@ wpsight
+msgid "RSS"
+msgstr "RSS"
+
+#: lib/functions/general.php:568
+#@ wpsight
+msgid "Subscribe to RSS"
+msgstr "Souscrire aux RSS"
+
+#: lib/functions/general.php:573
+#@ wpsight
+msgid "Twitter"
+msgstr "Twitter"
+
+#: lib/functions/general.php:574
+#@ wpsight
+msgid "Follow us on Twitter"
+msgstr "Suivez-nous sur Twitter"
+
+#: lib/functions/general.php:579
+#@ wpsight
+msgid "Facebook"
+msgstr "Facebook"
+
+#: lib/functions/general.php:580
+#@ wpsight
+msgid "Friend us on Facebook"
+msgstr "Devenez fan sur Facebook"
+
+#: lib/functions/general.php:585
+#@ wpsight
+msgid "Google+"
+msgstr "Google+"
+
+#: lib/functions/general.php:586
+#@ wpsight
+msgid "Follow us on Google+"
+msgstr "Suivez-nous sur Google+"
+
+#: lib/functions/general.php:591
+#@ wpsight
+msgid "Skype"
+msgstr "Skype"
+
+#: lib/functions/general.php:592
+#@ wpsight
+msgid "Connect with us on Skype"
+msgstr "Discutons sur Skype"
+
+#: lib/functions/general.php:597
+#@ wpsight
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: lib/functions/general.php:598
+#@ wpsight
+msgid "See our videos on Vimeo"
+msgstr "Voir nos vidéos sur Vimeo"
+
+#: lib/functions/general.php:603
+#@ wpsight
+msgid "YouTube"
+msgstr "YouTube"
+
+#: lib/functions/general.php:604
+#@ wpsight
+msgid "See our video on YouTube"
+msgstr "Voir nos vidéos sur YouTube"
+
+#: lib/functions/general.php:609
+#@ wpsight
+msgid "Delicious"
+msgstr "Delicious"
+
+#: lib/functions/general.php:610
+#@ wpsight
+msgid "Find us on Delicious"
+msgstr "Retrouvez-nous sur Delicious"
+
+#: lib/functions/general.php:615
+#@ wpsight
+msgid "Digg"
+msgstr "Digg"
+
+#: lib/functions/general.php:616
+#@ wpsight
+msgid "Find us on Digg"
+msgstr "Retrouvez-nous sur Digg"
+
+#: lib/functions/general.php:621
+#@ wpsight
+msgid "Technorati"
+msgstr "Technorati"
+
+#: lib/functions/general.php:622
+#@ wpsight
+msgid "Find us on Technorati"
+msgstr "Retrouvez-nous sur Technorati"
+
+#: lib/functions/general.php:901
+#: lib/widgets/spaces.php:36
+#: lib/wpcasa/widgets/_deprecated/spaces.php:34
+#@ wpsight
+msgid "Spaces"
+msgstr "Espaces"
+
+#: lib/functions/general.php:902
+#@ wpsight
+msgid "Sidebar Space"
+msgstr "Espace du sidebar"
+
+#: lib/functions/general.php:904
+#@ wpsight
+msgid "Add some custom content to this post. Then drag the Post Space widget to the Post Sidebar widget area."
+msgstr "Ajoutez du contenu personnalisé à cet article. Ensuite, faites glisser le widget Post Space à la zone de widget Post Sidebar."
+
+#: lib/functions/general.php:999
+#@ wpsight
+msgid "Ok"
+msgstr "Ok"
+
+#: lib/functions/general.php:1021
+#@ wpsight
+msgid "This post is password protected. To view it please enter your password below"
+msgstr "Cet article est protégé par un mot de passe. Pour l'afficher, veuillez entrer votre mot de passe ci-dessous"
+
+#: lib/functions/general.php:1022
+#@ wpsight
+msgid "Password"
+msgstr "Mot de passe"
+
+#: lib/functions/general.php:1022
+#@ wpsight
+msgid "Submit"
+msgstr "Soumettre"
+
+#: lib/functions/helpers.php:391
+#@ wpsight
+msgid "Untitled"
+msgstr "Sans titre"
+
+#: lib/functions/contact.php:133
+#@ wpsight
+msgid "Submit message"
+msgstr "Envoyer le message"
+
+#: lib/functions/menus.php:22
+#@ wpsight
+msgid "Top Left Menu"
+msgstr "Menu en haut à gauche"
+
+#: lib/functions/menus.php:23
+#@ wpsight
+msgid "Main Menu"
+msgstr "Menu principal"
+
+#: lib/functions/menus.php:24
+#@ wpsight
+msgid "Sub Menu"
+msgstr "Menu en bas"
+
+#: lib/wpcasa/actions/actions.php:26
+#: lib/wpcasa/actions/actions.php:36
+#@ wpsight
+msgctxt "property"
+msgid "Properties"
+msgstr "Biens immobiliers"
+
+#: lib/wpcasa/actions/actions.php:27
+#@ wpsight
+msgctxt "property"
+msgid "Property"
+msgstr "Bien immobilier"
+
+#: lib/wpcasa/actions/actions.php:28
+#@ wpsight
+msgctxt "property"
+msgid "Add New"
+msgstr "Ajouter Nouveau"
+
+#: lib/wpcasa/actions/actions.php:29
+#@ wpsight
+msgctxt "property"
+msgid "Add New Property"
+msgstr "Ajouter un nouveau bien immobilier"
+
+#: lib/wpcasa/actions/actions.php:30
+#@ wpsight
+msgctxt "property"
+msgid "Edit Property"
+msgstr "Modifier Bien immobilier"
+
+#: lib/wpcasa/actions/actions.php:31
+#@ wpsight
+msgctxt "property"
+msgid "New Property"
+msgstr "Nouveau Bien immobilier"
+
+#: lib/wpcasa/actions/actions.php:32
+#@ wpsight
+msgctxt "property"
+msgid "View Property"
+msgstr "Voir le bien immobilier"
+
+#: lib/wpcasa/actions/actions.php:33
+#@ wpsight
+msgctxt "property"
+msgid "Search Properties"
+msgstr "Rechercher des biens immobiliers"
+
+#: lib/wpcasa/actions/actions.php:34
+#@ wpsight
+msgctxt "property"
+msgid "No properties found"
+msgstr "Aucun bien trouvé"
+
+#: lib/wpcasa/actions/actions.php:35
+#@ wpsight
+msgctxt "property"
+msgid "No properties found in Trash"
+msgstr "Aucun Bien trouvé dans la corbeille"
+
+#: contact/email-listing.php:105
+#: lib/framework/taxonomies.php:29
+#: lib/framework/taxonomies.php:284
+#: lib/functions/listings.php:1154
+#: lib/functions/search.php:29
+#@ wpsight
+msgid "Location"
+msgstr "Localisation"
+
+#: contact/email-listing.php:109
+#: lib/framework/taxonomies.php:286
+#: lib/functions/search.php:40
+#: lib/wpcasa/filters/filters.php:133
+#@ wpsight
+msgid "Type"
+msgstr "Type"
+
+#: lib/wpcasa/filters/filters.php:41
+#@ wpsight
+msgid "Bedrooms"
+msgstr "Chambres"
+
+#: lib/shortcodes/listings.php:328
+#: lib/wpcasa/filters/filters.php:43
+#: lib/wpcasa/filters/filters.php:51
+#@ wpsight
+msgid "n/d"
+msgstr "n/d"
+
+#: lib/wpcasa/filters/filters.php:49
+#@ wpsight
+msgid "Bathrooms"
+msgstr "Salles de bain"
+
+#: lib/wpcasa/filters/filters.php:57
+#@ wpsight
+msgid "Plot Size"
+msgstr "Taille du terrain"
+
+#: lib/wpcasa/filters/filters.php:65
+#@ wpsight
+msgid "Living Area"
+msgstr "Surface d'habitation"
+
+#: lib/wpcasa/filters/filters.php:73
+#@ wpsight
+msgid "Terrace"
+msgstr "Terrasse"
+
+#: lib/wpcasa/filters/filters.php:81
+#@ wpsight
+msgid "Parking"
+msgstr "Parking"
+
+#: lib/wpcasa/filters/filters.php:89
+#@ wpsight
+msgid "Heating"
+msgstr "Chauffage"
+
+#: lib/wpcasa/filters/filters.php:97
+#@ wpsight
+msgid "Built in"
+msgstr "Année de construction"
+
+#: lib/functions/listings.php:427
+#@ wpsight
+msgid "Price on request"
+msgstr "Prix sur demande"
+
+#: lib/functions/listings.php:497
+#@ wpsight
+msgid "per Month"
+msgstr "par Mois"
+
+#: lib/functions/listings.php:498
+#@ wpsight
+msgid "per Week"
+msgstr "par Semaine"
+
+#: lib/functions/listings.php:499
+#@ wpsight
+msgid "per Year"
+msgstr "par An"
+
+#: lib/functions/listings.php:570
+#@ wpsight
+msgid "for Sale"
+msgstr "à Vendre"
+
+#: lib/functions/listings.php:571
+#@ wpsight
+msgid "for Rent"
+msgstr "à Louer"
+
+#: lib/admin/options.php:262
+#@ wpsight
+msgid "Other"
+msgstr "Autres"
+
+#: lib/framework/listings.php:1095
+#: lib/widgets/post-spaces.php:87
+#: lib/wpcasa/widgets/_deprecated/post-spaces.php:87
+#@ wpsight
+msgid "Space"
+msgstr "Espace"
+
+#: lib/framework/listings.php:1096
+#@ wpsight
+msgid "Widget Space"
+msgstr "Espacement des widgets"
+
+#: lib/framework/agents.php:419
+#@ wpsight
+msgid "Author base"
+msgstr "Base de l'auteur"
+
+#: lib/functions/listings.php:1150
+#@ wpsight
+msgid "Search Results"
+msgstr "Résultats de recherche"
+
+#: lib/functions/listings.php:1152
+#: lib/wpcasa/actions/actions.php:142
+#@ wpsight
+msgid "Property Type"
+msgstr "Type de bien immobilier"
+
+#: lib/framework/taxonomies.php:154
+#: lib/functions/listings.php:1153
+#@ wpsight
+msgid "Feature"
+msgstr "Caractéristique"
+
+#: lib/framework/taxonomies.php:28
+#: lib/wpcasa/widgets/_deprecated/properties-latest.php:342
+#: lib/wpcasa/widgets/_deprecated/properties-slider.php:411
+#: lib/wpcasa/widgets/actions.php:43
+#: lib/wpcasa/widgets/actions.php:96
+#@ wpsight
+msgid "Locations"
+msgstr "Localisation"
+
+#: lib/wpcasa/actions/actions.php:141
+#@ wpsight
+msgid "Property Types"
+msgstr "Types de biens immobiliers"
+
+#: lib/framework/taxonomies.php:153
+#: lib/framework/taxonomies.php:265
+#: lib/wpcasa/widgets/_deprecated/properties-latest.php:334
+#: lib/wpcasa/widgets/_deprecated/properties-slider.php:403
+#: lib/wpcasa/widgets/actions.php:35
+#: lib/wpcasa/widgets/actions.php:88
+#@ wpsight
+msgid "Features"
+msgstr "Caractéristiques"
+
+#: lib/framework/taxonomies.php:215
+#: lib/wpcasa/actions/actions.php:207
+#: lib/wpcasa/widgets/_deprecated/properties-latest.php:326
+#: lib/wpcasa/widgets/_deprecated/properties-slider.php:395
+#: lib/wpcasa/widgets/actions.php:27
+#: lib/wpcasa/widgets/actions.php:80
+#@ wpsight
+msgid "Categories"
+msgstr "Catégories"
+
+#: lib/framework/taxonomies.php:216
+#: lib/framework/taxonomies.php:288
+#: lib/framework/taxonomies.php:290
+#: lib/widgets/latest.php:278
+#: lib/wpcasa/actions/actions.php:208
+#: lib/wpcasa/widgets/_deprecated/latest.php:272
+#@ wpsight
+msgid "Category"
+msgstr "Catégorie"
+
+#: lib/framework/taxonomies.php:262
+#: lib/functions/search.php:99
+#: lib/widgets/agent.php:122
+#: lib/widgets/calltoaction.php:99
+#: lib/widgets/divider.php:73
+#: lib/widgets/latest.php:272
+#: lib/widgets/listing-agent.php:108
+#: lib/widgets/listing-contact.php:102
+#: lib/widgets/listing-description.php:93
+#: lib/widgets/listing-features.php:127
+#: lib/widgets/listing-gallery.php:189
+#: lib/widgets/listing-image.php:115
+#: lib/widgets/listing-location.php:164
+#: lib/widgets/listings-latest.php:337
+#: lib/widgets/listings-search.php:79
+#: lib/widgets/listings-slider.php:410
+#: lib/widgets/post-spaces.php:81
+#: lib/widgets/slider.php:339
+#: lib/widgets/spaces.php:302
+#: lib/wpcasa/widgets/_deprecated/calltoaction.php:99
+#: lib/wpcasa/widgets/_deprecated/divider.php:73
+#: lib/wpcasa/widgets/_deprecated/latest.php:266
+#: lib/wpcasa/widgets/_deprecated/post-spaces.php:81
+#: lib/wpcasa/widgets/_deprecated/properties-latest.php:315
+#: lib/wpcasa/widgets/_deprecated/properties-search.php:81
+#: lib/wpcasa/widgets/_deprecated/properties-slider.php:384
+#: lib/wpcasa/widgets/_deprecated/property-agent.php:106
+#: lib/wpcasa/widgets/_deprecated/property-contact.php:101
+#: lib/wpcasa/widgets/_deprecated/property-description.php:91
+#: lib/wpcasa/widgets/_deprecated/property-features.php:128
+#: lib/wpcasa/widgets/_deprecated/property-gallery.php:191
+#: lib/wpcasa/widgets/_deprecated/property-image.php:93
+#: lib/wpcasa/widgets/_deprecated/property-location.php:144
+#: lib/wpcasa/widgets/_deprecated/slider.php:339
+#: lib/wpcasa/widgets/_deprecated/spaces.php:300
+#@ wpsight
+msgid "Title"
+msgstr "Titre"
+
+#: contact/email-listing.php:88
+#: lib/framework/taxonomies.php:263
+#@ wpsight
+msgid "Details"
+msgstr "Détails"
+
+#: lib/framework/taxonomies.php:266
+#: lib/widgets/spaces.php:320
+#: lib/wpcasa/widgets/_deprecated/spaces.php:318
+#@ wpsight
+msgid "Image"
+msgstr "Image"
+
+#: lib/framework/taxonomies.php:268
+#@ wpsight
+msgid "Published"
+msgstr "Publié"
+
+#: lib/framework/taxonomies.php:457
+#@ wpsight
+msgid "Show all"
+msgstr "Tout voir"
+
+#: lib/shortcodes/footer.php:230
+#@ wpsight
+msgid "Log in"
+msgstr "Connexion"
+
+#: lib/shortcodes/footer.php:232
+#@ wpsight
+msgid "Log out"
+msgstr "Déconnexion"
+
+#: lib/shortcodes/post.php:123
+#, php-format
+#@ wpsight
+msgid "Visit %s&#8217;s website"
+msgstr "Visiter le site %s&#8217;s"
+
+#: lib/shortcodes/post.php:160
+#, php-format
+#@ wpsight
+msgid "Posts by %s"
+msgstr "Publié par %s"
+
+#: lib/shortcodes/post.php:188
+#@ wpsight
+msgid "1 Comment"
+msgstr "1 commentaire"
+
+#: lib/shortcodes/post.php:239
+#@ wpsight
+msgid "Tags"
+msgstr "Tags"
+
+#: lib/shortcodes/post.php:273
+#@ wpsight
+msgid "Terms"
+msgstr "Termes"
+
+#: lib/shortcodes/post.php:312
+#@ wpsight
+msgid "[Edit]"
+msgstr "[Modifier]"
+
+#: lib/shortcodes/post.php:350
+#@ wpsight
+msgid "Attached to"
+msgstr "Attaché à"
+
+#: lib/shortcodes/general.php:433
+#: lib/widgets/listings-slider.php:238
+#: lib/widgets/slider.php:179
+#: lib/wpcasa/widgets/_deprecated/properties-slider.php:212
+#: lib/wpcasa/widgets/_deprecated/slider.php:179
+#@ wpsight
+msgid "Pause"
+msgstr "Pause"
+
+#: lib/shortcodes/general.php:434
+#: lib/widgets/listings-slider.php:239
+#: lib/widgets/slider.php:180
+#: lib/wpcasa/widgets/_deprecated/properties-slider.php:213
+#: lib/wpcasa/widgets/_deprecated/slider.php:180
+#@ wpsight
+msgid "Play"
+msgstr "Lire"
+
+#: lib/widgets/calltoaction.php:24
+#: lib/wpcasa/widgets/_deprecated/calltoaction.php:24
+#@ wpsight
+msgid "Visually highlighted call to action"
+msgstr "Call to action visuellement mis en évidence"
+
+#: lib/widgets/calltoaction.php:25
+#: lib/wpcasa/widgets/_deprecated/calltoaction.php:25
+#@ wpsight
+msgid "Call to Action"
+msgstr "Call to Action"
+
+#: lib/widgets/calltoaction.php:35
+#: lib/widgets/calltoaction.php:96
+#: lib/wpcasa/widgets/_deprecated/calltoaction.php:35
+#: lib/wpcasa/widgets/_deprecated/calltoaction.php:96
+#@ wpsight
+msgid "Button Label"
+msgstr "Bouton Label"
+
+#: lib/widgets/calltoaction.php:105
+#: lib/widgets/spaces.php:398
+#: lib/wpcasa/widgets/_deprecated/calltoaction.php:105
+#: lib/wpcasa/widgets/_deprecated/spaces.php:396
+#@ wpsight
+msgid "Text"
+msgstr "Texte"
+
+#: lib/widgets/calltoaction.php:110
+#: lib/wpcasa/widgets/_deprecated/calltoaction.php:110
+#@ wpsight
+msgid "Button"
+msgstr "Bouton"
+
+#: lib/widgets/calltoaction.php:113
+#: lib/wpcasa/widgets/_deprecated/calltoaction.php:113
+#@ wpsight
+msgid "Enter URL or post/page ID"
+msgstr "Entrez l'URL ou le n° d'article / de page"
+
+#: lib/widgets/calltoaction.php:117
+#: lib/wpcasa/widgets/_deprecated/calltoaction.php:117
+#@ wpsight
+msgid "Label"
+msgstr "Label"
+
+#: lib/widgets/divider.php:24
+#: lib/wpcasa/widgets/_deprecated/divider.php:24
+#@ wpsight
+msgid "Visual divider between widgets"
+msgstr "Diviseur visuel entre les widgets"
+
+#: lib/widgets/divider.php:25
+#: lib/wpcasa/widgets/_deprecated/divider.php:25
+#@ wpsight
+msgid "Divider"
+msgstr "Diviseur"
+
+#: lib/widgets/divider.php:79
+#: lib/wpcasa/widgets/_deprecated/divider.php:79
+#@ wpsight
+msgid "Title Align"
+msgstr "Alignement du titre"
+
+#: lib/widgets/divider.php:82
+#: lib/widgets/spaces.php:385
+#: lib/wpcasa/widgets/_deprecated/divider.php:82
+#: lib/wpcasa/widgets/_deprecated/spaces.php:383
+#@ wpsight
+msgid "center"
+msgstr "centre"
+
+#: lib/widgets/latest.php:26
+#: lib/wpcasa/widgets/_deprecated/latest.php:24
+#@ wpsight
+msgid "Latest posts teaser"
+msgstr "Présentation des derniers articles"
+
+#: lib/widgets/latest.php:27
+#: lib/wpcasa/widgets/_deprecated/latest.php:25
+#@ wpsight
+msgid "Latest Posts"
+msgstr "Derniers articles"
+
+#: lib/widgets/latest.php:280
+#: lib/wpcasa/widgets/_deprecated/latest.php:274
+#@ wpsight
+msgid "Most recent posts"
+msgstr "Articles les plus récents"
+
+#: lib/widgets/latest.php:293
+#: lib/widgets/listings-latest.php:348
+#: lib/wpcasa/widgets/_deprecated/latest.php:287
+#: lib/wpcasa/widgets/_deprecated/properties-latest.php:363
+#@ wpsight
+msgid "Number of posts to show"
+msgstr "Nombre d'articles à visualiser"
+
+#: lib/widgets/latest.php:294
+#: lib/widgets/listings-latest.php:349
+#: lib/wpcasa/widgets/_deprecated/latest.php:288
+#: lib/wpcasa/widgets/_deprecated/properties-latest.php:364
+#@ wpsight
+msgid "(at most 20)"
+msgstr "(20 au plus)"
+
+#: lib/widgets/latest.php:298
+#: lib/widgets/listings-latest.php:353
+#: lib/wpcasa/widgets/_deprecated/latest.php:292
+#: lib/wpcasa/widgets/_deprecated/properties-latest.php:368
+#@ wpsight
+msgid "Number of words in excerpt"
+msgstr "Nombre de mots en extrait"
+
+#: lib/widgets/latest.php:303
+#: lib/widgets/listings-latest.php:358
+#: lib/widgets/spaces.php:414
+#: lib/wpcasa/widgets/_deprecated/latest.php:297
+#: lib/wpcasa/widgets/_deprecated/properties-latest.php:373
+#: lib/wpcasa/widgets/_deprecated/spaces.php:412
+#@ wpsight
+msgid "Width"
+msgstr "Largeur"
+
+#: lib/wpcasa/widgets/_deprecated/post-spaces.php:27
+#@ wpsight
+msgid "Custom sidebar content on posts and pages"
+msgstr "Sidebar personnalisé sur les articles et les pages"
+
+#: lib/wpcasa/widgets/_deprecated/post-spaces.php:28
+#@ wpsight
+msgid "Post Spaces"
+msgstr "Espaces d'articles"
+
+#: lib/widgets/post-spaces.php:95
+#: lib/wpcasa/widgets/_deprecated/post-spaces.php:95
+#@ wpsight
+msgid "Select the space to display"
+msgstr "Sélectionner l'espace à afficher"
+
+#: lib/wpcasa/widgets/_deprecated/properties-latest.php:24
+#@ wpsight
+msgid "Latest properties teaser"
+msgstr "Présentation des derniers biens immobiliers"
+
+#: lib/wpcasa/widgets/_deprecated/properties-latest.php:25
+#@ wpsight
+msgid "Latest Properties"
+msgstr "Derniers biens immobiliers"
+
+#: lib/wpcasa/widgets/_deprecated/properties-latest.php:323
+#: lib/wpcasa/widgets/_deprecated/properties-slider.php:392
+#: lib/wpcasa/widgets/actions.php:24
+#: lib/wpcasa/widgets/actions.php:77
+#@ wpsight
+msgid "Latest properties"
+msgstr "Derniers biens immobiliers"
+
+#: lib/wpcasa/widgets/_deprecated/properties-latest.php:324
+#: lib/wpcasa/widgets/_deprecated/properties-slider.php:393
+#: lib/wpcasa/widgets/actions.php:25
+#: lib/wpcasa/widgets/actions.php:78
+#@ wpsight
+msgid "Latest properties (for sale)"
+msgstr "Derniers biens immobiliers (à vendre)"
+
+#: lib/wpcasa/widgets/_deprecated/properties-latest.php:325
+#: lib/wpcasa/widgets/_deprecated/properties-slider.php:394
+#: lib/wpcasa/widgets/actions.php:26
+#: lib/wpcasa/widgets/actions.php:79
+#@ wpsight
+msgid "Latest properties (for rent)"
+msgstr "Derniers biens immobiliers (à louer)"
+
+#: lib/wpcasa/widgets/_deprecated/properties-latest.php:350
+#: lib/wpcasa/widgets/_deprecated/properties-slider.php:419
+#: lib/wpcasa/widgets/actions.php:51
+#: lib/wpcasa/widgets/actions.php:104
+#@ wpsight
+msgid "Types"
+msgstr "Types"
+
+#: lib/wpcasa/widgets/_deprecated/properties-search.php:28
+#@ wpsight
+msgid "Advanced property search form"
+msgstr "Formulaire de recherche avancée de biens immobiliers"
+
+#: lib/wpcasa/widgets/_deprecated/properties-slider.php:27
+#@ wpsight
+msgid "jQuery property slider"
+msgstr "jQuery slider de biens immobiliers"
+
+#: lib/wpcasa/widgets/_deprecated/properties-slider.php:427
+#: lib/wpcasa/widgets/actions.php:112
+#@ wpsight
+msgid "Custom"
+msgstr "Personnaliser"
+
+#: lib/widgets/slider.php:354
+#: lib/wpcasa/widgets/_deprecated/properties-slider.php:428
+#: lib/wpcasa/widgets/_deprecated/slider.php:354
+#: lib/wpcasa/widgets/actions.php:113
+#@ wpsight
+msgid "Custom field"
+msgstr "Champ personnalisé"
+
+#: lib/widgets/listing-gallery.php:204
+#: lib/widgets/listings-slider.php:421
+#: lib/widgets/slider.php:360
+#: lib/wpcasa/widgets/_deprecated/properties-slider.php:434
+#: lib/wpcasa/widgets/_deprecated/property-gallery.php:206
+#: lib/wpcasa/widgets/_deprecated/slider.php:360
+#@ wpsight
+msgid "Effect"
+msgstr "Effet"
+
+#: lib/widgets/listings-slider.php:423
+#: lib/widgets/slider.php:362
+#: lib/wpcasa/widgets/_deprecated/properties-slider.php:436
+#: lib/wpcasa/widgets/_deprecated/slider.php:362
+#@ wpsight
+msgid "fade"
+msgstr "effacé"
+
+#: lib/widgets/listings-slider.php:424
+#: lib/widgets/slider.php:363
+#: lib/wpcasa/widgets/_deprecated/properties-slider.php:437
+#: lib/wpcasa/widgets/_deprecated/slider.php:363
+#@ wpsight
+msgid "slide"
+msgstr "slide"
+
+#: lib/widgets/listings-slider.php:429
+#: lib/widgets/slider.php:368
+#: lib/wpcasa/widgets/_deprecated/properties-slider.php:442
+#: lib/wpcasa/widgets/_deprecated/slider.php:368
+#@ wpsight
+msgid "Direction"
+msgstr "Direction"
+
+#: lib/widgets/listings-slider.php:431
+#: lib/widgets/slider.php:370
+#: lib/wpcasa/widgets/_deprecated/properties-slider.php:444
+#: lib/wpcasa/widgets/_deprecated/slider.php:370
+#@ wpsight
+msgid "horizontal"
+msgstr "horizontal"
+
+#: lib/widgets/listings-slider.php:432
+#: lib/widgets/slider.php:371
+#: lib/wpcasa/widgets/_deprecated/properties-slider.php:445
+#: lib/wpcasa/widgets/_deprecated/slider.php:371
+#@ wpsight
+msgid "vertical"
+msgstr "vertical"
+
+#: lib/widgets/listing-gallery.php:212
+#: lib/widgets/listings-slider.php:437
+#: lib/widgets/slider.php:376
+#: lib/wpcasa/widgets/_deprecated/properties-slider.php:450
+#: lib/wpcasa/widgets/_deprecated/property-gallery.php:214
+#: lib/wpcasa/widgets/_deprecated/slider.php:376
+#@ wpsight
+msgid "Timer"
+msgstr "Minuteur"
+
+#: lib/widgets/listing-gallery.php:214
+#: lib/widgets/listings-slider.php:439
+#: lib/widgets/slider.php:378
+#: lib/wpcasa/widgets/_deprecated/properties-slider.php:452
+#: lib/wpcasa/widgets/_deprecated/property-gallery.php:216
+#: lib/wpcasa/widgets/_deprecated/slider.php:378
+#@ wpsight
+msgid "off"
+msgstr "off"
+
+#: lib/widgets/listing-gallery.php:216
+#: lib/widgets/listings-slider.php:441
+#: lib/widgets/slider.php:380
+#: lib/wpcasa/widgets/_deprecated/properties-slider.php:454
+#: lib/wpcasa/widgets/_deprecated/property-gallery.php:218
+#: lib/wpcasa/widgets/_deprecated/slider.php:380
+#@ wpsight
+msgid "seconds"
+msgstr "secondes"
+
+#: lib/widgets/listings-slider.php:448
+#: lib/widgets/slider.php:387
+#: lib/wpcasa/widgets/_deprecated/properties-slider.php:461
+#: lib/wpcasa/widgets/_deprecated/slider.php:387
+#@ wpsight
+msgid "Overlay"
+msgstr "Couverture"
+
+#: lib/wpcasa/widgets/_deprecated/properties-slider.php:466
+#@ wpsight
+msgid "Property details"
+msgstr "Détails du bien immobilier"
+
+#: lib/wpcasa/widgets/_deprecated/properties-slider.php:471
+#@ wpsight
+msgid "Property teaser"
+msgstr "Présentation du bien immobilier"
+
+#: lib/widgets/listings-slider.php:463
+#: lib/widgets/slider.php:397
+#: lib/wpcasa/widgets/_deprecated/properties-slider.php:476
+#: lib/wpcasa/widgets/_deprecated/slider.php:397
+#@ wpsight
+msgid "Previous & next buttons"
+msgstr "Boutons précédent et suivant"
+
+#: lib/widgets/listings-slider.php:468
+#: lib/widgets/slider.php:402
+#: lib/wpcasa/widgets/_deprecated/properties-slider.php:481
+#: lib/wpcasa/widgets/_deprecated/slider.php:402
+#@ wpsight
+msgid "Keyboard navigation"
+msgstr "Navigation du clavier"
+
+#: lib/widgets/listings-slider.php:473
+#: lib/widgets/slider.php:407
+#: lib/wpcasa/widgets/_deprecated/properties-slider.php:486
+#: lib/wpcasa/widgets/_deprecated/slider.php:407
+#@ wpsight
+msgid "Mouse wheel navigation"
+msgstr "Mollette de la souris de navigation"
+
+#: lib/widgets/listings-slider.php:478
+#: lib/widgets/slider.php:412
+#: lib/wpcasa/widgets/_deprecated/properties-slider.php:491
+#: lib/wpcasa/widgets/_deprecated/slider.php:412
+#@ wpsight
+msgid "Random order"
+msgstr "Ordre aléatoire"
+
+#: lib/widgets/listing-gallery.php:230
+#: lib/widgets/listings-slider.php:483
+#: lib/widgets/slider.php:417
+#: lib/wpcasa/widgets/_deprecated/properties-slider.php:496
+#: lib/wpcasa/widgets/_deprecated/property-gallery.php:232
+#: lib/wpcasa/widgets/_deprecated/slider.php:417
+#@ wpsight
+msgid "Remove links"
+msgstr "Supprimer les liens"
+
+#: lib/widgets/listings-slider.php:487
+#: lib/widgets/slider.php:421
+#: lib/wpcasa/widgets/_deprecated/properties-slider.php:500
+#: lib/wpcasa/widgets/_deprecated/slider.php:421
+#@ wpsight
+msgid "Number of entries"
+msgstr "Nombre d'entrées"
+
+#: lib/widgets/listings-slider.php:493
+#: lib/widgets/slider.php:426
+#: lib/wpcasa/widgets/_deprecated/properties-slider.php:506
+#: lib/wpcasa/widgets/_deprecated/slider.php:426
+#@ wpsight
+msgid "Number of words in teaser"
+msgstr "Nombres de mots dans la présentation"
+
+#: lib/wpcasa/widgets/_deprecated/property-agent.php:28
+#@ wpsight
+msgid "Agent info on single property pages"
+msgstr "Infos sur l'agence des pages de biens immobiliers uniques"
+
+#: lib/widgets/agent.php:41
+#: lib/widgets/agent.php:104
+#: lib/widgets/listing-agent.php:42
+#: lib/widgets/listing-agent.php:104
+#: lib/wpcasa/widgets/_deprecated/property-agent.php:40
+#: lib/wpcasa/widgets/_deprecated/property-agent.php:102
+#@ wpsight
+msgid "Agent Name"
+msgstr "Nom de l'agence"
+
+#: lib/framework/agents.php:210
+#: lib/framework/agents.php:342
+#: loop-author.php:78
+#: loop-author.php:198
+#@ wpsight
+msgid "See my listings"
+msgstr "Voir mes annonces"
+
+#: lib/widgets/agent.php:129
+#: lib/widgets/listing-agent.php:115
+#: lib/wpcasa/widgets/_deprecated/property-agent.php:113
+#@ wpsight
+msgid "Agent name as widget title"
+msgstr "Nom de l'agence comme titre du widget"
+
+#: lib/widgets/listing-agent.php:120
+#: lib/wpcasa/widgets/_deprecated/property-agent.php:118
+#@ wpsight
+msgid "Show jump link to contact form"
+msgstr "Voir le jump link vers le formulaire de contact"
+
+#: lib/wpcasa/widgets/_deprecated/property-contact.php:39
+#@ wpsight
+msgid "Contact form on single property pages"
+msgstr "Formulaire de contact sur les pages de biens immobiliers uniques"
+
+#: lib/functions/contact.php:125
+#@ wpsight
+msgid "Your name"
+msgstr "Votre nom"
+
+#: lib/functions/contact.php:127
+#@ wpsight
+msgid "Your email"
+msgstr "Votre email"
+
+#: lib/functions/contact.php:129
+#@ wpsight
+msgid "Your phone"
+msgstr "Votre téléphone"
+
+#: lib/functions/contact.php:131
+#@ wpsight
+msgid "Your message"
+msgstr "Votre message"
+
+#: lib/functions/contact.php:134
+#@ wpsight
+msgid "Send copy to your email"
+msgstr "Envoyer une copie à votre boîte mails"
+
+#: lib/functions/contact.php:135
+#@ wpsight
+msgid "This field is required!"
+msgstr "Ce champs est obligatoire !"
+
+#: lib/functions/contact.php:136
+#@ wpsight
+msgid "Please enter a valid email!"
+msgstr "Veuillez saisir un email valide !"
+
+#: lib/functions/contact.php:139
+#@ wpsight
+msgid "<strong>Thanks!</strong> Your email has been sent successfully."
+msgstr "<strong>Merci !</strong> Votre message a été envoyé avec succès."
+
+#: lib/functions/contact.php:140
+#@ wpsight
+msgid "There was an error submitting the form!"
+msgstr "Il y une erreur dans l'envoi du formulaire !"
+
+#: lib/framework/contact.php:513
+#@ wpsight
+msgid "Loading"
+msgstr "Chargement"
+
+#: lib/wpcasa/widgets/_deprecated/property-contact.php:108
+#@ wpsight
+msgid "If emtpy, emails are sent to the author of the property entry."
+msgstr "Les messages vides sont envoyés à l'auteur qui a crée l'annonce du bien immobilier."
+
+#: lib/wpcasa/widgets/_deprecated/property-description.php:28
+#@ wpsight
+msgid "Description on single property pages"
+msgstr "Description sur les pages de biens immobiliers uniques"
+
+#: lib/wpcasa/widgets/_deprecated/property-details.php:28
+#@ wpsight
+msgid "Details on single property pages"
+msgstr "Détails sur les pages de biens immobiliers uniques"
+
+#: lib/wpcasa/widgets/_deprecated/property-details.php:88
+#@ wpsight
+msgid "Property ID"
+msgstr "N° du bien immobilier"
+
+#: lib/wpcasa/widgets/_deprecated/property-details.php:175
+#@ wpsight
+msgid "Display property type"
+msgstr "Afficher le type de bien immobilier"
+
+#: lib/wpcasa/widgets/_deprecated/property-details.php:180
+#@ wpsight
+msgid "Display property location"
+msgstr "Afficher la localisation du bien immobilier"
+
+#: lib/wpcasa/widgets/_deprecated/property-details.php:185
+#@ wpsight
+msgid "Display property ID"
+msgstr "Afficher le n° du bien immobilier"
+
+#: lib/widgets/listing-details.php:190
+#: lib/widgets/listing-gallery.php:194
+#: lib/wpcasa/widgets/_deprecated/property-details.php:198
+#: lib/wpcasa/widgets/_deprecated/property-gallery.php:196
+#@ wpsight
+msgid "Display"
+msgstr "Affichage"
+
+#: lib/wpcasa/widgets/_deprecated/property-features.php:28
+#@ wpsight
+msgid "Features on single property pages"
+msgstr "Caractéristiques sur les pages de biens immobiliers uniques"
+
+#: lib/widgets/listing-features.php:134
+#: lib/wpcasa/widgets/_deprecated/property-features.php:135
+#@ wpsight
+msgid "Unlink features"
+msgstr "Caractéristiques à part"
+
+#: lib/wpcasa/widgets/_deprecated/property-gallery.php:28
+#@ wpsight
+msgid "Gallery on single property pages"
+msgstr "Galerie des pages de biens immobiliers uniques"
+
+#: lib/widgets/listing-gallery.php:196
+#: lib/wpcasa/widgets/_deprecated/property-gallery.php:198
+#@ wpsight
+msgid "Thumbnails"
+msgstr "Miniatures"
+
+#: lib/widgets/listing-gallery.php:197
+#: lib/widgets/slider.php:28
+#: lib/wpcasa/widgets/_deprecated/property-gallery.php:199
+#: lib/wpcasa/widgets/_deprecated/slider.php:28
+#@ wpsight
+msgid "Slider"
+msgstr "Slider"
+
+#: lib/widgets/listing-gallery.php:206
+#: lib/wpcasa/widgets/_deprecated/property-gallery.php:208
+#@ wpsight
+msgid "Fade"
+msgstr "Effacé"
+
+#: lib/widgets/listing-gallery.php:207
+#: lib/wpcasa/widgets/_deprecated/property-gallery.php:209
+#@ wpsight
+msgid "Slide"
+msgstr "Slide"
+
+#: lib/widgets/listing-gallery.php:223
+#: lib/wpcasa/widgets/_deprecated/property-gallery.php:225
+#@ wpsight
+msgid "Display previous / next"
+msgstr "Afficher précédent / suivant"
+
+#: lib/widgets/listing-gallery.php:235
+#: lib/wpcasa/widgets/_deprecated/property-gallery.php:237
+#@ wpsight
+msgid "Exclude featured image"
+msgstr "Exclure l'image vedette"
+
+#: lib/widgets/listing-gallery.php:241
+#: lib/wpcasa/widgets/_deprecated/property-gallery.php:243
+#@ wpsight
+msgid "Comma-separated list of image IDs"
+msgstr "Séparation de la liste des numéros d'images par une virgule"
+
+#: lib/wpcasa/widgets/_deprecated/property-image.php:28
+#@ wpsight
+msgid "Featured image on single property pages"
+msgstr "Présenté sur l'image des pages de biens immobiliers uniques"
+
+#: lib/wpcasa/widgets/_deprecated/property-location.php:28
+#@ wpsight
+msgid "Property location on single property pages"
+msgstr "Localisation sur les pages de biens immobiliers uniques"
+
+#: lib/widgets/listing-location.php:170
+#: lib/wpcasa/widgets/_deprecated/property-location.php:150
+#@ wpsight
+msgid "Map type"
+msgstr "Type de carte"
+
+#: lib/framework/listings.php:874
+#: lib/widgets/listing-location.php:172
+#: lib/wpcasa/widgets/_deprecated/property-location.php:152
+#@ wpsight
+msgid "Map"
+msgstr "Carte"
+
+#: lib/widgets/listing-location.php:173
+#: lib/wpcasa/widgets/_deprecated/property-location.php:153
+#@ wpsight
+msgid "Satellite"
+msgstr "Satellite"
+
+#: lib/widgets/listing-location.php:178
+#: lib/wpcasa/widgets/_deprecated/property-location.php:158
+#@ wpsight
+msgid "Zoom level"
+msgstr "Niveau de zoom"
+
+#: lib/widgets/listing-location.php:190
+#: lib/wpcasa/widgets/_deprecated/property-location.php:170
+#@ wpsight
+msgid "Enable streetview"
+msgstr "Permettre le streetview"
+
+#: lib/wpcasa/widgets/_deprecated/property-title.php:28
+#@ wpsight
+msgid "Main title on single property pages"
+msgstr "Titre principal sur les pages de biens immobiliers uniques"
+
+#: lib/wpcasa/widgets/_deprecated/property-title.php:38
+#: lib/wpcasa/widgets/_deprecated/property-title.php:75
+#: lib/wpcasa/widgets/_deprecated/property-title.php:88
+#@ wpsight
+msgid "Property Title"
+msgstr "Titre du bien immobilier"
+
+#: lib/widgets/listing-title.php:93
+#: lib/wpcasa/widgets/_deprecated/property-title.php:94
+#@ wpsight
+msgid "Display favorites link"
+msgstr "Afficher les liens favoris"
+
+#: lib/widgets/listing-title.php:98
+#: lib/wpcasa/widgets/_deprecated/property-title.php:99
+#@ wpsight
+msgid "Display print link"
+msgstr "Afficher le lien d'impression"
+
+#: lib/widgets/slider.php:27
+#: lib/wpcasa/widgets/_deprecated/slider.php:27
+#@ wpsight
+msgid "jQuery content slider"
+msgstr "Slider de contenu jQuery"
+
+#: lib/widgets/slider.php:347
+#: lib/wpcasa/widgets/_deprecated/slider.php:347
+#@ wpsight
+msgid "Latest posts"
+msgstr "Derniers articles"
+
+#: lib/widgets/slider.php:392
+#: lib/wpcasa/widgets/_deprecated/slider.php:392
+#@ wpsight
+msgid "Post teaser"
+msgstr "Présentation de l'article"
+
+#: lib/widgets/spaces.php:35
+#: lib/wpcasa/widgets/_deprecated/spaces.php:33
+#@ wpsight
+msgid "Content space with text and image"
+msgstr "Espace de contenu avec texte et image"
+
+#: lib/widgets/spaces.php:48
+#: lib/widgets/spaces.php:281
+#: lib/wpcasa/widgets/_deprecated/spaces.php:46
+#: lib/wpcasa/widgets/_deprecated/spaces.php:279
+#@ wpsight
+msgid "Change image"
+msgstr "Changer l'image"
+
+#: lib/widgets/spaces.php:281
+#: lib/wpcasa/widgets/_deprecated/spaces.php:279
+#@ wpsight
+msgid "Add image"
+msgstr "Ajouter une image"
+
+#: lib/widgets/spaces.php:298
+#: lib/widgets/spaces.php:316
+#: lib/wpcasa/widgets/_deprecated/spaces.php:296
+#: lib/wpcasa/widgets/_deprecated/spaces.php:314
+#, php-format
+#@ wpsight
+msgid "See available <a href=\"%s\" target=\"_blank\">icons</a>"
+msgstr "Voir les icônes disponibles <a href=\"%s\" target=\"_blank\">icons</a>"
+
+#: lib/widgets/spaces.php:307
+#: lib/wpcasa/widgets/_deprecated/spaces.php:305
+#@ wpsight
+msgid "Title Icon"
+msgstr "Titre de l'icône"
+
+#: lib/widgets/spaces.php:357
+#: lib/wpcasa/widgets/_deprecated/spaces.php:355
+#@ wpsight
+msgid "Image size"
+msgstr "Taille de l'image"
+
+#: lib/widgets/spaces.php:359
+#: lib/wpcasa/widgets/_deprecated/spaces.php:357
+#@ wpsight
+msgid "custom"
+msgstr "personnaliser"
+
+#: lib/widgets/spaces.php:366
+#: lib/wpcasa/widgets/_deprecated/spaces.php:364
+#@ wpsight
+msgid "Image size is also limited by the box width you select below"
+msgstr "La taille de l'image est également limitée par la largeur du bloc que vous sélectionné ci-dessous"
+
+#: lib/widgets/spaces.php:372
+#: lib/wpcasa/widgets/_deprecated/spaces.php:370
+#@ wpsight
+msgid "Image width"
+msgstr "Largeur de l'image"
+
+#: lib/widgets/spaces.php:380
+#: lib/wpcasa/widgets/_deprecated/spaces.php:378
+#@ wpsight
+msgid "Image align"
+msgstr "Alignement de l'image"
+
+#: lib/widgets/spaces.php:391
+#: lib/wpcasa/widgets/_deprecated/spaces.php:389
+#@ wpsight
+msgid "Link image"
+msgstr "Lien de l'image"
+
+#: lib/widgets/spaces.php:392
+#: lib/wpcasa/widgets/_deprecated/spaces.php:390
+#@ wpsight
+msgid "Click on image opens lightbox"
+msgstr "Cliquer sur l'image ouvre une lightbox"
+
+#: lib/widgets/spaces.php:404
+#: lib/wpcasa/widgets/_deprecated/spaces.php:402
+#@ wpsight
+msgid "Center widget content"
+msgstr "Centrer le contenu du widget"
+
+#: lib/widgets/spaces.php:410
+#: lib/wpcasa/widgets/_deprecated/spaces.php:408
+#@ wpsight
+msgid "Adds links to title and image (enter a URL or post/page ID)"
+msgstr "Ajoute des liens vers le titre et l'image (entrez un URL ou un n° d'article / page)"
+
+#: lib/widgets/spaces.php:426
+#: lib/wpcasa/widgets/_deprecated/spaces.php:424
+#@ wpsight
+msgid "First widget"
+msgstr "Premier widget"
+
+#: lib/widgets/spaces.php:427
+#: lib/wpcasa/widgets/_deprecated/spaces.php:425
+#@ wpsight
+msgid "Position of the widget in the row."
+msgstr "Position du widget dans la rangée."
+
+#: lib/widgets/spaces.php:485
+#: lib/wpcasa/widgets/_deprecated/spaces.php:483
+#@ wpsight
+msgid "Insert into Widget"
+msgstr "Insérer dans le widget"
+
+#: lib/widgets/widgets.php:21
+#: sidebar.php:19
+#@ wpsight
+msgid "General Sidebar"
+msgstr "Sidebar général"
+
+#: lib/widgets/widgets.php:22
+#@ wpsight
+msgid "This is the primary sidebar to display the same widgets on all pages."
+msgstr "C'est le sidebar principal pour afficher les mêmes widgets sur toutes les pages."
+
+#: lib/widgets/widgets.php:32
+#@ wpsight
+msgid "Archive Sidebar"
+msgstr "Sidebar d'archives"
+
+#: lib/widgets/widgets.php:33
+#@ wpsight
+msgid "This is the sidebar on category, tag, author, date and search pages. If empty, archives will be displayed without sidebar."
+msgstr "C'est le sidebar sur la catégorie, tag, auteur, date et pages de recherche. S'il est vide, les archives seront affichés sans le sidebar."
+
+#: lib/widgets/widgets.php:43
+#@ wpsight
+msgid "Post Sidebar"
+msgstr "Sidebar d'article"
+
+#: lib/widgets/widgets.php:44
+#@ wpsight
+msgid "This is the sidebar on single post pages. If empty, posts will be displayed without sidebar."
+msgstr "C'est un sidebar sur les pages d'articles uniques. S'il est vide, les articles seront affichés sans le sidebar."
+
+#: lib/widgets/widgets.php:54
+#@ wpsight
+msgid "Page Sidebar"
+msgstr "Sidebar de la page"
+
+#: lib/widgets/widgets.php:55
+#@ wpsight
+msgid "This is the sidebar on static pages. If empty, pages will be displayed without sidebar."
+msgstr "C'est le sidebar sur les pages statiques. S'il est vide, les pages seront affichées sans le sidebar."
+
+#: lib/widgets/widgets.php:65
+#@ wpsight
+msgid "Home Page Top"
+msgstr "Top de la page d'accueil"
+
+#: lib/widgets/widgets.php:66
+#@ wpsight
+msgid "Top Content on the home page"
+msgstr "Contenu au top de la page d'accueil"
+
+#: lib/widgets/widgets.php:76
+#@ wpsight
+msgid "Home Page Content"
+msgstr "Contenu de la page d'accueil"
+
+#: lib/widgets/widgets.php:77
+#@ wpsight
+msgid "Main Content on the home page"
+msgstr "Principal contenu de la page d'accueil"
+
+#: lib/widgets/widgets.php:87
+#: sidebar.php:19
+#@ wpsight
+msgid "Home Page Sidebar"
+msgstr "Sidebar de la page d'accueil"
+
+#: lib/widgets/widgets.php:88
+#@ wpsight
+msgid "The sidebar on the home page"
+msgstr "Le sidebar sur la page d'accueil"
+
+#: lib/widgets/widgets.php:98
+#@ wpsight
+msgid "Home Page Bottom"
+msgstr "Pied de la page d'accueil"
+
+#: lib/widgets/widgets.php:99
+#@ wpsight
+msgid "Bottom Content on the home page"
+msgstr "Contenu au pied de la page d'accueil"
+
+#: lib/widgets/widgets.php:142
+#@ wpsight
+msgid "Footer"
+msgstr "Pied de page"
+
+#: lib/widgets/widgets.php:143
+#@ wpsight
+msgid "Footer widget area"
+msgstr "Zone de widgets du pied de page"
+
+#: loop-no.php:4
+#@ wpsight
+msgid "<strong>Sorry!</strong> No posts matched your criteria."
+msgstr "<strong>Désolé !</strong> Aucun article ne correspond à vos critères."
+
+#: page-tpl-compare.php:179
+#: page-tpl-compare.php:189
+#: page-tpl-favorites.php:179
+#: page-tpl-favorites.php:189
+#@ wpsight
+msgid "<strong>Sorry!</strong> You have no favorites at the moment."
+msgstr "<strong>Désolé !</strong> Vous n'avez aucun favori pour le moment."
+
+#: lib/framework/listings.php:1007
+#@ wpsight
+msgid "Print now"
+msgstr "Imprimer maintenant"
+
+#: listing-single.php:29
+#@ wpsight
+msgid "Description"
+msgstr "Description"
+
+#: sidebar.php:17
+#@ wpsight
+msgid "Widget Area"
+msgstr "Zone des widgets"
+
+#: sidebar.php:19
+#, php-format
+#@ wpsight
+msgid "This is a widget area. Please drag and drop your preferred widgets to the area %s"
+msgstr "C'est une zone de widgets. Veuillez glisser et déposer vos widgets préférés dans la zone %s"
+
+#: sidebar.php:19
+#@ wpsight
+msgid "or"
+msgstr "ou"
+
+#: sidebar.php:19
+#@ wpsight
+msgid "Edit Widgets"
+msgstr "Modifier les widgets"
+
+#: lib/functions/general.php:627
+#@ wpsight
+msgid "Linkedin"
+msgstr "Linkedin"
+
+#: lib/functions/general.php:628
+#@ wpsight
+msgid "Find us on Linkedin"
+msgstr "Retrouvez-nous sur Linkedin"
+
+#: contact/email-favorites.php:88
+#: lib/framework/listings.php:53
+#@ wpsight
+msgid "Favorites"
+msgstr "Favoris"
+
+#: contact/email-favorites.php:117
+#: contact/email-general.php:99
+#: contact/email-listing.php:130
+#, php-format
+#@ wpsight
+msgid "This email was sent through the contact form on <a href=\"%1$s\">%2$s</a>"
+msgstr "Cet email a &eacute;t&eacute; envoyé via le formulaire de contact de <a href=\"%1$s\">%2$s</a>"
+
+#: contact/email-listing.php:97
+#: lib/functions/contact.php:147
+#: lib/functions/listings.php:1162
+#@ wpsight
+msgid "Listing"
+msgstr "Liste"
+
+#: lib/admin/customizer.php:89
+#@ wpsight
+msgid "Link Color"
+msgstr "Couleur des liens"
+
+#: lib/admin/meta-box/inc/classes/meta-box.php:284
+#@ wpsight
+msgid "Please correct the errors highlighted below and try again."
+msgstr "Veuillez corriger les erreurs surlign&eacute;es ci-dessous et essayez &agrave; nouveau."
+
+#: lib/admin/meta-box/inc/classes/meta-box.php:342
+#@ wpsight
+msgid "+"
+msgstr "+"
+
+#: lib/admin/meta-box/inc/classes/meta-box.php:364
+#@ wpsight
+msgid "&#8211;"
+msgstr "&#8211;"
+
+#: lib/admin/meta-box/inc/fields/file.php:65
+#@ wpsight
+msgid "Error: Cannot delete file"
+msgstr "Erreur: Impossible de supprimer le fichier"
+
+#: lib/admin/meta-box/inc/fields/file.php:79
+#@ wpsight
+msgctxt "file upload"
+msgid "Delete"
+msgstr "Supprimer"
+
+#: lib/admin/meta-box/inc/fields/file.php:80
+#@ wpsight
+msgctxt "file upload"
+msgid "Upload files"
+msgstr "Envoyer des fichiers"
+
+#: lib/admin/meta-box/inc/fields/file.php:81
+#@ wpsight
+msgctxt "file upload"
+msgid "+ Add new file"
+msgstr "+ Ajouter un nouveau fichier"
+
+#: lib/admin/meta-box/inc/fields/image.php:64
+#@ wpsight
+msgid "Order saved"
+msgstr "Commande enregistr&eacute;e"
+
+#: lib/admin/meta-box/inc/fields/image.php:78
+#: lib/admin/meta-box/inc/fields/thickbox-image.php:35
+#@ wpsight
+msgctxt "image upload"
+msgid "Upload images"
+msgstr "Envoyer des images"
+
+#: lib/admin/meta-box/inc/fields/image.php:79
+#@ wpsight
+msgctxt "image upload"
+msgid "+ Add new image"
+msgstr "+ Ajouter une nouvelle image"
+
+#: lib/admin/meta-box/inc/fields/image.php:136
+#@ wpsight
+msgctxt "image upload"
+msgid "Delete"
+msgstr "Supprimer"
+
+#: lib/admin/meta-box/inc/fields/image.php:137
+#@ wpsight
+msgctxt "image upload"
+msgid "Edit"
+msgstr "Modifier"
+
+#: lib/admin/meta-box/inc/fields/map.php:69
+#@ wpsight
+msgid "Map Address saved"
+msgstr "Adresse enregstrée"
+
+#: lib/admin/meta-box/inc/fields/map.php:73
+#@ wpsight
+msgid "Map Address saving fail"
+msgstr "Erreur d'enregistrement de l'adresse"
+
+#: lib/admin/meta-box/inc/fields/map.php:105
+#@ wpsight
+msgid "Find Address"
+msgstr "Trouver une adresse"
+
+#: lib/admin/meta-box/inc/fields/plupload-image.php:87
+#@ wpsight
+msgctxt "image upload"
+msgid "Allowed Image Files"
+msgstr "Types d'image autoris&eacute;s"
+
+#: lib/admin/meta-box/inc/fields/plupload-image.php:111
+#@ wpsight
+msgctxt "image upload"
+msgid "Drop images here"
+msgstr "Déposer les images ici"
+
+#: lib/admin/meta-box/inc/fields/plupload-image.php:112
+#@ wpsight
+msgctxt "image upload"
+msgid "or"
+msgstr "ou"
+
+#: lib/admin/meta-box/inc/fields/plupload-image.php:113
+#@ wpsight
+msgctxt "image upload"
+msgid "Select Files"
+msgstr "S&eacute;lectionnez les fichiers"
+
+#: lib/admin/meta-box/inc/fields/select-advanced.php:82
+#@ wpsight
+msgid "Select a value"
+msgstr "S&eacute;lectionnez une valeur"
+
+#: lib/admin/meta-boxes.php:65
+#@ wpsight
+msgid "Listing Images"
+msgstr "Images de l'annonce"
+
+#: lib/admin/meta-boxes.php:137
+#@ wpsight
+msgid "Listing Price"
+msgstr "Prix de l'annonce"
+
+#: lib/admin/meta-boxes.php:139
+#@ wpsight
+msgid "No currency symbols or thousands separators"
+msgstr "Aucun symbole mon&eacute;taire ni de séparateurs de milliers"
+
+#: lib/admin/meta-boxes.php:143
+#@ wpsight
+msgid "Item is no longer available"
+msgstr "N'est plus en vente"
+
+#: lib/admin/meta-boxes.php:207
+#: lib/framework/taxonomies.php:569
+#@ wpsight
+msgid "Listing Details"
+msgstr "D&eacute;tails de l'annonce"
+
+#: lib/admin/meta-boxes.php:334
+#@ wpsight
+msgid "Listing Location"
+msgstr "Emplacement"
+
+#: lib/admin/meta-boxes.php:340
+#@ wpsight
+msgid "Public Note"
+msgstr "Note publique"
+
+#: lib/admin/meta-boxes.php:341
+#@ wpsight
+msgid "e.g. <code>Location is not the exact address of the listing</code>"
+msgstr "Par exemple <code>L'emplacement n'est pas l'adresse exacte</code>"
+
+#: lib/admin/meta-boxes.php:348
+#@ wpsight
+msgid "Secret Note"
+msgstr "Note priv&eacute;e"
+
+#: lib/admin/meta-boxes.php:349
+#@ wpsight
+msgid "Will not be displayed on the website (e.g. complete address)"
+msgstr "Ne sera pas affich&eacute; sur le site (ex: adresse compl&egrave;te)"
+
+#: lib/admin/meta-boxes.php:353
+#@ wpsight
+msgid "Exclude from general listings map"
+msgstr "Exclure de la carte des annonces"
+
+#: lib/admin/options/options-framework.php:194
+#@ wpsight
+msgid "Clear"
+msgstr "Effacer"
+
+#: lib/admin/options/options-framework.php:195
+#@ wpsight
+msgid "Default"
+msgstr "D&eacute;faut"
+
+#: lib/admin/options/options-framework.php:196
+#@ wpsight
+msgid "Select Color"
+msgstr "S&eacute;lectionner la couleur"
+
+#: lib/admin/options/options-framework.php:274
+#@ wpsight
+msgid "Default options restored."
+msgstr "Options par d&eacute;faut restaur&eacute;es"
+
+#: lib/admin/options/options-media-uploader.php:76
+#@ wpsight
+msgid "No file chosen"
+msgstr "Aucun fichier choisi"
+
+#: lib/admin/options/options-media-uploader.php:84
+#@ wpsight
+msgid "Upgrade your version of WordPress for full media support."
+msgstr "Mettez &agrave; jour votre version de WordPress pour un support complet des m&eacute;dias."
+
+#: lib/admin/options/options-sanitize.php:232
+#@ wpsight
+msgid "No Repeat"
+msgstr "Ne pas r&eacute;p&eacute;ter"
+
+#: lib/admin/options/options-sanitize.php:233
+#@ wpsight
+msgid "Repeat Horizontally"
+msgstr "R&eacute;p&eacute;ter horizontalement"
+
+#: lib/admin/options/options-sanitize.php:234
+#@ wpsight
+msgid "Repeat Vertically"
+msgstr "R&eacute;p&eacute;ter verticalement"
+
+#: lib/admin/options/options-sanitize.php:235
+#@ wpsight
+msgid "Repeat All"
+msgstr "R&eacute;p&eacute;ter tout"
+
+#: lib/admin/options/options-sanitize.php:248
+#@ wpsight
+msgid "Top Left"
+msgstr "En haut &agrave; gauche"
+
+#: lib/admin/options/options-sanitize.php:249
+#@ wpsight
+msgid "Top Center"
+msgstr "Centrer en haut"
+
+#: lib/admin/options/options-sanitize.php:250
+#@ wpsight
+msgid "Top Right"
+msgstr "En haut &agrave; droite"
+
+#: lib/admin/options/options-sanitize.php:251
+#@ wpsight
+msgid "Middle Left"
+msgstr "Milieu gauche"
+
+#: lib/admin/options/options-sanitize.php:252
+#@ wpsight
+msgid "Middle Center"
+msgstr "Milieu centre"
+
+#: lib/admin/options/options-sanitize.php:253
+#@ wpsight
+msgid "Middle Right"
+msgstr "Milieu droit"
+
+#: lib/admin/options/options-sanitize.php:254
+#@ wpsight
+msgid "Bottom Left"
+msgstr "En bas &agrave; gauche"
+
+#: lib/admin/options/options-sanitize.php:255
+#@ wpsight
+msgid "Bottom Center"
+msgstr "En bas &agrave; au centre"
+
+#: lib/admin/options/options-sanitize.php:256
+#@ wpsight
+msgid "Bottom Right"
+msgstr "En bas &agrave; droite"
+
+#: lib/admin/options/options-sanitize.php:269
+#@ wpsight
+msgid "Scroll Normally"
+msgstr "D&eacute;filer normalement"
+
+#: lib/admin/options/options-sanitize.php:270
+#@ wpsight
+msgid "Fixed in Place"
+msgstr "Fixer en place"
+
+#: lib/admin/options/options-sanitize.php:344
+#@ wpsight
+msgid "Normal"
+msgstr "Normal"
+
+#: lib/admin/options/options-sanitize.php:345
+#@ wpsight
+msgid "Italic"
+msgstr "Italique"
+
+#: lib/admin/options/options-sanitize.php:346
+#@ wpsight
+msgid "Bold"
+msgstr "Gras"
+
+#: lib/admin/options/options-sanitize.php:347
+#@ wpsight
+msgid "Bold Italic"
+msgstr "Gras Italique"
+
+#: lib/admin/options.php:114
+#@ wpsight
+msgid "Header Area"
+msgstr "Zone de l'en-&ecirc;te"
+
+#: lib/admin/options.php:162
+#: lib/admin/options.php:181
+#@ wpsight
+msgid "Listing Archive Layout"
+msgstr "Mise en page archives des annonces"
+
+#: lib/admin/options.php:163
+#: lib/admin/options.php:182
+#@ wpsight
+msgid "Please remember that the layout is also limited through the sidebar. If the listing archive sidebar is active, only option #1 and #3 will be possible."
+msgstr "Veuillez vous rappeler que la mise en page est limit&eacute; avec la barre latérale (sidebar). Si la barre latérale de l'archive des annonces est active, seulement l'option #1 et #3 sera possible."
+
+#: lib/admin/options.php:228
+#: lib/functions/helpers.php:704
+#: lib/functions/listings.php:1162
+#@ wpsight
+msgid "Listings"
+msgstr "Annonces"
+
+#: lib/admin/options.php:234
+#@ wpsight
+msgid "ID-"
+msgstr "ID-"
+
+#: lib/admin/options.php:237
+#@ wpsight
+msgid "Listing ID Prefix"
+msgstr "Pr&eacute;fixe de l'annonce"
+
+#: lib/admin/options.php:239
+#@ wpsight
+msgid "The listing ID will be this prefix plus post ID. You can optionally set individual IDs on the listing edit screen."
+msgstr "L'ID de l'annonce sera ce préfixe plus l'ID de annonce. Vous pouvez optionnellement choisir votre propre ID sur la page d'édition de l'annonce."
+
+#: lib/admin/options.php:247
+#@ wpsight
+msgid "Please select the general measurement unit. The unit for the listing standard features can be defined separately below."
+msgstr "Veuillez choisir l'unité de mesure générale. L'unité de l'annonce par défaut peut être définie ci-dessous."
+
+#: lib/admin/options.php:257
+#@ wpsight
+msgid "Please select the currency for the listing prices. If your currency is not listed, please select <code>Other</code>."
+msgstr "Veuillez sélectionner la devise à utiliser pour les montants des annonces. Si votre monnaie n'est pas listée veuillez choisir <code>Autre</code>."
+
+#: lib/admin/options.php:292
+#@ wpsight
+msgid "Please select the thousands separator for your listing prices."
+msgstr "Veuillez sélectionner le séparateur des milliers pour le montant des annonces."
+
+#: lib/admin/options.php:296
+#@ wpsight
+msgid "Period (e.g. 1.000.000)"
+msgstr "Point (exemple : 1.000.000)"
+
+#: lib/admin/options.php:302
+#@ wpsight
+msgid "Listing Features"
+msgstr "Propriétés de l'annonce"
+
+#: lib/admin/options.php:303
+#@ wpsight
+msgid "Please check the box to edit the listing standard features."
+msgstr "Veuillez sélectionner la boite pour modifier les propriétés de l'annonce par défaut."
+
+#: lib/admin/options.php:385
+#@ wpsight
+msgid "Listing search results"
+msgstr "Annonces trouvées"
+
+#: lib/admin/options.php:386
+#@ wpsight
+msgid "Listing archive pages"
+msgstr "Page d'archives des annonces"
+
+#: lib/admin/options.php:387
+#@ wpsight
+msgid "Listing page templates"
+msgstr "Modèle de page des annonces"
+
+#: lib/admin/options.php:388
+#@ wpsight
+msgid "Listing agent archive pages"
+msgstr "Pages d'archives des posteurs annonces"
+
+#: lib/admin/options.php:399
+#@ wpsight
+msgid "Please select where to display the listing search form. Keep in mind that there is also a widget to place the search form in widget areas."
+msgstr "Veuillez sélectionner ou afficher le formulaire de recherche des annonces. Gardez à l'esprit qu'il y a aussi un formulaire de recherche parmi les widgets."
+
+#: lib/framework/contact.php:377
+#@ wpsight
+msgid "Reload Image"
+msgstr "Recharger l'image"
+
+#: lib/framework/contact.php:560
+#@ wpsight
+msgid "Your favorites"
+msgstr "Vos favoris"
+
+#: lib/framework/contact.php:565
+#@ wpsight
+msgid "Please check the listings you wish to receive information about"
+msgstr "Veuillez choisir les annonces sur lesquelles vous voulez recevoir des informations."
+
+#: lib/framework/contact.php:592
+#, php-format
+#@ wpsight
+msgid "Your message will be sent to %s"
+msgstr "Votre message sera envoyé à %s"
+
+#: lib/framework/listings.php:52
+#@ wpsight
+msgid "Save"
+msgstr "Enregistrer"
+
+#: lib/framework/listings.php:54
+#@ wpsight
+msgid "Print"
+msgstr "Imprimer"
+
+#: lib/framework/listings.php:606
+#: lib/framework/listings.php:699
+#: lib/framework/listings.php:764
+#@ wpsight
+msgctxt "listing title actions"
+msgid "Order by"
+msgstr "Ordonner par"
+
+#: lib/framework/listings.php:607
+#: lib/framework/listings.php:700
+#: lib/framework/listings.php:765
+#@ wpsight
+msgctxt "listing title actions"
+msgid "Date"
+msgstr "Date"
+
+#: lib/framework/listings.php:608
+#: lib/framework/listings.php:612
+#@ wpsight
+msgctxt "listing title actions"
+msgid "or"
+msgstr "ou"
+
+#: lib/framework/listings.php:609
+#: lib/framework/listings.php:701
+#: lib/framework/listings.php:766
+#@ wpsight
+msgctxt "listing title actions"
+msgid "Price"
+msgstr "Prix"
+
+#: lib/framework/listings.php:610
+#: lib/framework/listings.php:702
+#: lib/framework/listings.php:767
+#@ wpsight
+msgctxt "listing title actions"
+msgid "Order"
+msgstr "Ordre"
+
+#: lib/framework/listings.php:611
+#@ wpsight
+msgctxt "listing title actions"
+msgid "DESC"
+msgstr "DESC"
+
+#: lib/framework/listings.php:613
+#@ wpsight
+msgctxt "listing title actions"
+msgid "ASC"
+msgstr "ASC"
+
+#: lib/framework/listings.php:703
+#: lib/framework/listings.php:768
+#@ wpsight
+msgctxt "listing title actions"
+msgid "desc"
+msgstr "desc"
+
+#: lib/framework/listings.php:704
+#: lib/framework/listings.php:769
+#@ wpsight
+msgctxt "listing title actions"
+msgid "asc"
+msgstr "asc"
+
+#: lib/framework/listings.php:705
+#: lib/framework/listings.php:770
+#@ wpsight
+msgctxt "listing title actions"
+msgid "Title"
+msgstr "Titre"
+
+#: lib/framework/listings.php:924
+#@ wpsight
+msgid "Compare"
+msgstr "Comparer"
+
+#: lib/framework/listings.php:1098
+#@ wpsight
+msgid "Add some custom content to this page. Then drag the Single Space widget to the Listing Content or Listing Sidebar widget area."
+msgstr "Ajoutez du contenu à cette page. Ensuite ajoutez le widget Single Space au contenu de l'annonce ou à la sidebar des annonces."
+
+#: lib/framework/main.php:304
+#, php-format
+#@ wpsight
+msgid "Create a new %1$s, %2$s or %3$s"
+msgstr "Créez un nouveau %1$s, %2$s ou %3$s"
+
+#: lib/framework/main.php:304
+#@ wpsight
+msgid "listing"
+msgstr "annonce"
+
+#: lib/framework/post-types.php:25
+#: lib/framework/post-types.php:35
+#@ wpsight
+msgctxt "listing"
+msgid "Listings"
+msgstr "Annonces"
+
+#: lib/framework/post-types.php:26
+#@ wpsight
+msgctxt "listing"
+msgid "Listing"
+msgstr "Annonce"
+
+#: lib/framework/post-types.php:27
+#@ wpsight
+msgctxt "listing"
+msgid "Add New"
+msgstr "Ajouter"
+
+#: lib/framework/post-types.php:28
+#@ wpsight
+msgctxt "listing"
+msgid "Add New Listing"
+msgstr "Ajouter une annonce"
+
+#: lib/framework/post-types.php:29
+#@ wpsight
+msgctxt "listing"
+msgid "Edit Listing"
+msgstr "Modifier l'annonce"
+
+#: lib/framework/post-types.php:30
+#@ wpsight
+msgctxt "listing"
+msgid "New Listing"
+msgstr "Nouvelle Annonce"
+
+#: lib/framework/post-types.php:31
+#@ wpsight
+msgctxt "listing"
+msgid "View Listing"
+msgstr "Voir l'annonce"
+
+#: lib/framework/post-types.php:32
+#@ wpsight
+msgctxt "listing"
+msgid "Search Listings"
+msgstr "Rechercher dans les annonces"
+
+#: lib/framework/post-types.php:33
+#@ wpsight
+msgctxt "listing"
+msgid "No listings found"
+msgstr "Aucune annonce trouvée"
+
+#: lib/framework/post-types.php:34
+#@ wpsight
+msgctxt "listing"
+msgid "No listings found in Trash"
+msgstr "Aucune annonce de trouvée dans la corbeille"
+
+#: lib/framework/roles.php:21
+#@ wpsight
+msgid "Listing Admin"
+msgstr "Admin de annonce"
+
+#: lib/framework/roles.php:34
+#: lib/functions/listings.php:1155
+#@ wpsight
+msgid "Listing Agent"
+msgstr "Auteur de l'annonce"
+
+#: lib/framework/roles.php:43
+#@ wpsight
+msgid "Listing Subscriber"
+msgstr "Abonné à l'annonce"
+
+#: lib/framework/search.php:70
+#@ wpsight
+msgid "Keyword or Listing ID"
+msgstr "Mot clé ou ID de l'annonce"
+
+#: lib/framework/taxonomies.php:34
+#@ wpsight
+msgctxt "taxonomy locations"
+msgid "Locations"
+msgstr "Lieux"
+
+#: lib/framework/taxonomies.php:35
+#@ wpsight
+msgctxt "taxonomy locations"
+msgid "All Locations"
+msgstr "Tous les lieux"
+
+#: lib/framework/taxonomies.php:36
+#@ wpsight
+msgctxt "taxonomy locations"
+msgid "Edit Location"
+msgstr "Modifier le lieu"
+
+#: lib/framework/taxonomies.php:37
+#@ wpsight
+msgctxt "taxonomy locations"
+msgid "View Location"
+msgstr "Voir le lieu"
+
+#: lib/framework/taxonomies.php:38
+#@ wpsight
+msgctxt "taxonomy locations"
+msgid "Update Location"
+msgstr "Mettre à jour le lieu"
+
+#: lib/framework/taxonomies.php:39
+#@ wpsight
+msgctxt "taxonomy locations"
+msgid "Add New Location"
+msgstr "Ajouter un lieu"
+
+#: lib/framework/taxonomies.php:40
+#@ wpsight
+msgctxt "taxonomy locations"
+msgid "New Location Name"
+msgstr "Nom du lieu"
+
+#: lib/framework/taxonomies.php:41
+#@ wpsight
+msgctxt "taxonomy locations"
+msgid "Parent Location"
+msgstr "Lieu parent"
+
+#: lib/framework/taxonomies.php:42
+#@ wpsight
+msgctxt "taxonomy locations"
+msgid "Parent Location:"
+msgstr "Lieu parent:"
+
+#: lib/framework/taxonomies.php:43
+#@ wpsight
+msgctxt "taxonomy locations"
+msgid "Search locations"
+msgstr "Rechercher dans les lieux"
+
+#: lib/framework/taxonomies.php:44
+#@ wpsight
+msgctxt "taxonomy locations"
+msgid "Popular Locations"
+msgstr "Lieux populaires"
+
+#: lib/framework/taxonomies.php:45
+#@ wpsight
+msgctxt "taxonomy locations"
+msgid "Separate locations with commas"
+msgstr "Séparer les lieux avec des virgules"
+
+#: lib/framework/taxonomies.php:46
+#@ wpsight
+msgctxt "taxonomy locations"
+msgid "Add or remove locations"
+msgstr "Ajouter ou surprimer les lieux"
+
+#: lib/framework/taxonomies.php:47
+#@ wpsight
+msgctxt "taxonomy locations"
+msgid "Choose from the most used locations"
+msgstr "Choisir à partir des lieux les plus utilisés"
+
+#: lib/framework/taxonomies.php:48
+#@ wpsight
+msgctxt "taxonomy locations"
+msgid "No location found"
+msgstr "Aucun lieu trouvé"
+
+#: lib/framework/taxonomies.php:91
+#@ wpsight
+msgid "Listing Types"
+msgstr "Types d'annonces"
+
+#: lib/framework/taxonomies.php:92
+#: lib/functions/listings.php:1151
+#@ wpsight
+msgid "Listing Type"
+msgstr "Type d'annonce"
+
+#: lib/framework/taxonomies.php:97
+#@ wpsight
+msgctxt "taxonomy types"
+msgid "Listing Types"
+msgstr "Types d'annonces"
+
+#: lib/framework/taxonomies.php:98
+#@ wpsight
+msgctxt "taxonomy types"
+msgid "All Listing Types"
+msgstr "Tous les types d'annonces"
+
+#: lib/framework/taxonomies.php:99
+#@ wpsight
+msgctxt "taxonomy types"
+msgid "Edit Listing Type"
+msgstr "Modifier le type d'annonce"
+
+#: lib/framework/taxonomies.php:100
+#@ wpsight
+msgctxt "taxonomy types"
+msgid "View Listing Type"
+msgstr "Voir le type d'annonce"
+
+#: lib/framework/taxonomies.php:101
+#@ wpsight
+msgctxt "taxonomy types"
+msgid "Update Listing Type"
+msgstr "Mettre à jour le type d'annonce"
+
+#: lib/framework/taxonomies.php:102
+#@ wpsight
+msgctxt "taxonomy types"
+msgid "Add New Listing Type"
+msgstr "Ajouter un type d'annonce"
+
+#: lib/framework/taxonomies.php:103
+#@ wpsight
+msgctxt "taxonomy types"
+msgid "New Listing Type Name"
+msgstr "Ajouter un nom de type d'annonce"
+
+#: lib/framework/taxonomies.php:104
+#@ wpsight
+msgctxt "taxonomy types"
+msgid "Parent Listing Type"
+msgstr "Parent du type d'annonce"
+
+#: lib/framework/taxonomies.php:105
+#@ wpsight
+msgctxt "taxonomy types"
+msgid "Parent Listing Type:"
+msgstr "Parent du type d'annonce:"
+
+#: lib/framework/taxonomies.php:106
+#@ wpsight
+msgctxt "taxonomy types"
+msgid "Search listing types"
+msgstr "Rechercher dans les types d'annonces"
+
+#: lib/framework/taxonomies.php:107
+#@ wpsight
+msgctxt "taxonomy types"
+msgid "Popular Listing Types"
+msgstr "Types d'annonces populaires"
+
+#: lib/framework/taxonomies.php:108
+#@ wpsight
+msgctxt "taxonomy types"
+msgid "Separate listing types with commas"
+msgstr "Séparer les types d'annonces avec des virgules"
+
+#: lib/framework/taxonomies.php:109
+#@ wpsight
+msgctxt "taxonomy types"
+msgid "Add or remove listing types"
+msgstr "Ajouter ou supprimer un type d'annonce"
+
+#: lib/framework/taxonomies.php:110
+#@ wpsight
+msgctxt "taxonomy types"
+msgid "Choose from the most used listing types"
+msgstr "Choisir parmi les types d'annonces les plus utilisés"
+
+#: lib/framework/taxonomies.php:111
+#@ wpsight
+msgctxt "taxonomy types"
+msgid "No listing type found"
+msgstr "Aucun type d'annonce n'a été trouvé"
+
+#: lib/framework/taxonomies.php:159
+#@ wpsight
+msgctxt "taxonomy features"
+msgid "Features"
+msgstr "Propriétés"
+
+#: lib/framework/taxonomies.php:160
+#@ wpsight
+msgctxt "taxonomy features"
+msgid "All Features"
+msgstr "Toutes les propriétés"
+
+#: lib/framework/taxonomies.php:161
+#@ wpsight
+msgctxt "taxonomy features"
+msgid "Edit Feature"
+msgstr "Modifier la propriété"
+
+#: lib/framework/taxonomies.php:162
+#@ wpsight
+msgctxt "taxonomy features"
+msgid "View Feature"
+msgstr "Voir la propriété"
+
+#: lib/framework/taxonomies.php:163
+#@ wpsight
+msgctxt "taxonomy features"
+msgid "Update Feature"
+msgstr "Mettre à jour la propriété"
+
+#: lib/framework/taxonomies.php:164
+#@ wpsight
+msgctxt "taxonomy features"
+msgid "Add New Feature"
+msgstr "Ajouter une propriété"
+
+#: lib/framework/taxonomies.php:165
+#@ wpsight
+msgctxt "taxonomy features"
+msgid "New Feature Name"
+msgstr "Nouveau nom de propriété"
+
+#: lib/framework/taxonomies.php:166
+#@ wpsight
+msgctxt "taxonomy features"
+msgid "Parent Feature"
+msgstr "Propriété parente"
+
+#: lib/framework/taxonomies.php:167
+#@ wpsight
+msgctxt "taxonomy features"
+msgid "Parent Feature:"
+msgstr "Propriété parente:"
+
+#: lib/framework/taxonomies.php:168
+#@ wpsight
+msgctxt "taxonomy features"
+msgid "Search features"
+msgstr "Rechercher dans les propriétés"
+
+#: lib/framework/taxonomies.php:169
+#@ wpsight
+msgctxt "taxonomy features"
+msgid "Popular Features"
+msgstr "Propriétés populaires"
+
+#: lib/framework/taxonomies.php:170
+#@ wpsight
+msgctxt "taxonomy features"
+msgid "Separate features with commas"
+msgstr "Séparer les propriétés avec les virgules"
+
+#: lib/framework/taxonomies.php:171
+#@ wpsight
+msgctxt "taxonomy features"
+msgid "Add or remove features"
+msgstr "Ajouter ou supprimer des propriétés"
+
+#: lib/framework/taxonomies.php:172
+#@ wpsight
+msgctxt "taxonomy features"
+msgid "Choose from the most used features"
+msgstr "Choisir parmi les propriété les plus utilisées"
+
+#: lib/framework/taxonomies.php:173
+#@ wpsight
+msgctxt "taxonomy features"
+msgid "No feature found"
+msgstr "Aucune propriété de trouvée"
+
+#: lib/framework/taxonomies.php:267
+#: lib/widgets/agent.php:107
+#@ wpsight
+msgid "Agent"
+msgstr "Auteur"
+
+#: lib/framework/agents.php:332
+#: lib/framework/taxonomies.php:300
+#@ wpsight
+msgid "See profile"
+msgstr "Voir le profil"
+
+#: lib/framework/taxonomies.php:511
+#@ wpsight
+msgid "View all Agents"
+msgstr "Voir tous les agents"
+
+#: lib/functions/contact.php:137
+#@ wpsight
+msgid "The security code entered is not correct."
+msgstr "Le code de sécurité entré n'est pas correct."
+
+#: lib/functions/contact.php:138
+#@ wpsight
+msgid "There is a problem with the captcha."
+msgstr "Il y a un problème avec le captcha"
+
+#: lib/functions/contact.php:142
+#@ wpsight
+msgid "sent you a message via the contact form."
+msgstr "vous a envoyé un message via le formulaire de contact"
+
+#: lib/functions/contact.php:209
+#: lib/functions/contact.php:252
+#@ wpsight
+msgid "Message from"
+msgstr "Message de"
+
+#: lib/functions/helpers.php:614
+#@ wpsight
+msgid "URL"
+msgstr "URL"
+
+#: lib/functions/helpers.php:656
+#@ wpsight
+msgid "All"
+msgstr "Tout"
+
+#: lib/functions/listings.php:19
+#: lib/functions/listings.php:27
+#: lib/functions/listings.php:35
+#@ wpsight
+msgid "Detail"
+msgstr "Détail"
+
+#: lib/framework/taxonomies.php:422
+#: lib/functions/listings.php:425
+#@ wpsight
+msgid "Sold"
+msgstr "Vendu"
+
+#: lib/framework/taxonomies.php:422
+#: lib/functions/listings.php:426
+#@ wpsight
+msgid "Rented"
+msgstr "Loué"
+
+#: lib/functions/listings.php:500
+#@ wpsight
+msgid "per Day"
+msgstr "par Jour"
+
+#: lib/functions/listings.php:677
+#@ wpsight
+msgid "(AED) United Arab Emirates Dirham"
+msgstr "(AED) Dirham des Emirats Arabes Unis"
+
+#: lib/functions/listings.php:678
+#@ wpsight
+msgid "(ANG) Netherlands Antillean Guilder"
+msgstr "(ANG) Florin des Antilles néerlandaises"
+
+#: lib/functions/listings.php:679
+#@ wpsight
+msgid "(ARS) Argentine Peso"
+msgstr "(ARS) Peso Argentin"
+
+#: lib/functions/listings.php:680
+#@ wpsight
+msgid "(AUD) Australian Dollar"
+msgstr "(AUD) Dollar Australien"
+
+#: lib/functions/listings.php:681
+#@ wpsight
+msgid "(BDT) Bangladeshi Taka"
+msgstr "(BDT) Taka du Bangladesh"
+
+#: lib/functions/listings.php:682
+#@ wpsight
+msgid "(BGN) Bulgarian Lev"
+msgstr "(BGN) Lev Bulgare"
+
+#: lib/functions/listings.php:683
+#@ wpsight
+msgid "(BHD) Bahraini Dinar"
+msgstr "(BHD) Dinar Bahreïni"
+
+#: lib/functions/listings.php:684
+#@ wpsight
+msgid "(BND) Brunei Dollar"
+msgstr "(BND) Dollar de Brunei"
+
+#: lib/functions/listings.php:685
+#@ wpsight
+msgid "(BOB) Bolivian Boliviano"
+msgstr "(BOB) Boliviano Bolivien"
+
+#: lib/functions/listings.php:686
+#@ wpsight
+msgid "(BRL) Brazilian Real"
+msgstr "(BRL) Real Brésilien"
+
+#: lib/functions/listings.php:687
+#@ wpsight
+msgid "(BWP) Botswanan Pula"
+msgstr "(BWP) Pula du Botswana"
+
+#: lib/functions/listings.php:688
+#@ wpsight
+msgid "(CAD) Canadian Dollar"
+msgstr "(CAD) Dollar Canadien"
+
+#: lib/functions/listings.php:689
+#@ wpsight
+msgid "(CHF) Swiss Franc"
+msgstr "(CHF) Franc Suisse"
+
+#: lib/functions/listings.php:690
+#@ wpsight
+msgid "(CLP) Chilean Peso"
+msgstr "(CLP) Peso Chilien"
+
+#: lib/functions/listings.php:691
+#@ wpsight
+msgid "(CNY) Chinese Yuan"
+msgstr "(CNY) Yuan Chinois"
+
+#: lib/functions/listings.php:692
+#@ wpsight
+msgid "(COP) Colombian Peso"
+msgstr "(COP) Peso Colombien"
+
+#: lib/functions/listings.php:693
+#@ wpsight
+msgid "(CRC) Costa Rican Colon"
+msgstr "(CRC) Colon du Costa Rica"
+
+#: lib/functions/listings.php:694
+#@ wpsight
+msgid "(CZK) Czech Republic Koruna"
+msgstr "(CZK) Couronne de République Tchèque"
+
+#: lib/functions/listings.php:695
+#@ wpsight
+msgid "(DKK) Danish Krone"
+msgstr "(DKK) Couronne Danoise"
+
+#: lib/functions/listings.php:696
+#@ wpsight
+msgid "(DOP) Dominican Peso"
+msgstr "(DOP) Peso Dominicain"
+
+#: lib/functions/listings.php:697
+#@ wpsight
+msgid "(DZD) Algerian Dinar"
+msgstr "(DZD) Dinar Algerien"
+
+#: lib/functions/listings.php:698
+#@ wpsight
+msgid "(EEK) Estonian Kroon"
+msgstr "(EEK) Kroon Estonienne"
+
+#: lib/functions/listings.php:699
+#@ wpsight
+msgid "(EGP) Egyptian Pound"
+msgstr "(EGP) Livre Egyptienne"
+
+#: lib/functions/listings.php:700
+#@ wpsight
+msgid "(EUR) Euro"
+msgstr "(EUR) Euro"
+
+#: lib/functions/listings.php:701
+#@ wpsight
+msgid "(FJD) Fijian Dollar"
+msgstr "(FJD) Dollar Fijien"
+
+#: lib/functions/listings.php:702
+#@ wpsight
+msgid "(GBP) British Pound"
+msgstr "(GBP) Livre Sterling"
+
+#: lib/functions/listings.php:703
+#@ wpsight
+msgid "(HKD) Hong Kong Dollar"
+msgstr "(HKD) Dollar de Hong Kong"
+
+#: lib/functions/listings.php:704
+#@ wpsight
+msgid "(HNL) Honduran Lempira"
+msgstr "(HNL) Lempira Hondurien"
+
+#: lib/functions/listings.php:705
+#@ wpsight
+msgid "(HRK) Croatian Kuna"
+msgstr "(HRK) Kuna Croate"
+
+#: lib/functions/listings.php:706
+#@ wpsight
+msgid "(HUF) Hungarian Forint"
+msgstr "(HUF) Florin Hongrois"
+
+#: lib/functions/listings.php:707
+#@ wpsight
+msgid "(IDR) Indonesian Rupiah"
+msgstr "(IDR) Roupie Indonésienne"
+
+#: lib/functions/listings.php:708
+#@ wpsight
+msgid "(ILS) Israeli New Sheqel"
+msgstr "(ILS) Sheqel Israélien"
+
+#: lib/functions/listings.php:709
+#@ wpsight
+msgid "(INR) Indian Rupee"
+msgstr "(INR) Roupie Indienne"
+
+#: lib/functions/listings.php:710
+#@ wpsight
+msgid "(JMD) Jamaican Dollar"
+msgstr "(JMD) Dollar Jamaïcain"
+
+#: lib/functions/listings.php:711
+#@ wpsight
+msgid "(JOD) Jordanian Dinar"
+msgstr "(JOD) Dinar Jordanien"
+
+#: lib/functions/listings.php:712
+#@ wpsight
+msgid "(JPY) Japanese Yen"
+msgstr "(JPY) Yen Japonais"
+
+#: lib/functions/listings.php:713
+#@ wpsight
+msgid "(KES) Kenyan Shilling"
+msgstr "(KES) Shilling Kenyan"
+
+#: lib/functions/listings.php:714
+#@ wpsight
+msgid "(KRW) South Korean Won"
+msgstr "(KRW) Won Sud Coréen"
+
+#: lib/functions/listings.php:715
+#@ wpsight
+msgid "(KWD) Kuwaiti Dinar"
+msgstr "(KWD) Dinar Koweïtien"
+
+#: lib/functions/listings.php:716
+#@ wpsight
+msgid "(KYD) Cayman Islands Dollar"
+msgstr "(KYD) Dollar des Iles Caïman"
+
+#: lib/functions/listings.php:717
+#@ wpsight
+msgid "(KZT) Kazakhstani Tenge"
+msgstr "(KZT) Tenge du Kazakhstan"
+
+#: lib/functions/listings.php:718
+#@ wpsight
+msgid "(LBP) Lebanese Pound"
+msgstr "(LBP) Livre Libanaise"
+
+#: lib/functions/listings.php:719
+#@ wpsight
+msgid "(LKR) Sri Lankan Rupee"
+msgstr "(LKR) Roupie Sri Lankaise"
+
+#: lib/functions/listings.php:720
+#@ wpsight
+msgid "(LTL) Lithuanian Litas"
+msgstr "(LTL) Litas Lituanienne"
+
+#: lib/functions/listings.php:721
+#@ wpsight
+msgid "(LVL) Latvian Lats"
+msgstr "(LVL) Lats Letton"
+
+#: lib/functions/listings.php:722
+#@ wpsight
+msgid "(MAD) Moroccan Dirham"
+msgstr "(MAD) Dirham Marocain"
+
+#: lib/functions/listings.php:723
+#@ wpsight
+msgid "(MDL) Moldovan Leu"
+msgstr "(MDL) Leu Moldave"
+
+#: lib/functions/listings.php:724
+#@ wpsight
+msgid "(MKD) Macedonian Denar"
+msgstr "(MKD) Denar Macédonien"
+
+#: lib/functions/listings.php:725
+#@ wpsight
+msgid "(MUR) Mauritian Rupee"
+msgstr "(MUR) Roupie mauricienne"
+
+#: lib/functions/listings.php:726
+#@ wpsight
+msgid "(MVR) Maldivian Rufiyaa"
+msgstr "(MVR) Roupie Maldive"
+
+#: lib/functions/listings.php:727
+#@ wpsight
+msgid "(MXN) Mexican Peso"
+msgstr "(MXN) Peso Mexicain"
+
+#: lib/functions/listings.php:728
+#@ wpsight
+msgid "(MYR) Malaysian Ringgit"
+msgstr "(MYR) Ringgit Malaisien"
+
+#: lib/functions/listings.php:729
+#@ wpsight
+msgid "(NAD) Namibian Dollar"
+msgstr "(NAD) Dollar Namibiain"
+
+#: lib/functions/listings.php:730
+#@ wpsight
+msgid "(NGN) Nigerian Naira"
+msgstr "(NGN) Naira Nigeriane"
+
+#: lib/functions/listings.php:731
+#@ wpsight
+msgid "(NIO) Nicaraguan Cordoba"
+msgstr "(NIO) Cordoba Nicaragayen"
+
+#: lib/functions/listings.php:732
+#@ wpsight
+msgid "(NOK) Norwegian Krone"
+msgstr "(NOK) Couronne Norvégienne"
+
+#: lib/functions/listings.php:733
+#@ wpsight
+msgid "(NPR) Nepalese Rupee"
+msgstr "(NPR) Roupie Népalaise"
+
+#: lib/functions/listings.php:734
+#@ wpsight
+msgid "(NZD) New Zealand Dollar"
+msgstr "(NZD) Dollar Néo-Zélandais"
+
+#: lib/functions/listings.php:735
+#@ wpsight
+msgid "(OMR) Omani Rial"
+msgstr "(OMR) Riyal d'Oman"
+
+#: lib/functions/listings.php:736
+#@ wpsight
+msgid "(PEN) Peruvian Nuevo Sol"
+msgstr "(PEN) Nuevo Sol Péruvien"
+
+#: lib/functions/listings.php:737
+#@ wpsight
+msgid "(PGK) Papua New Guinean Kina"
+msgstr "(PGK) Kina de Papouasie Nouvelle Guinée"
+
+#: lib/functions/listings.php:738
+#@ wpsight
+msgid "(PHP) Philippine Peso"
+msgstr "(PHP) Peso Philippin"
+
+#: lib/functions/listings.php:739
+#@ wpsight
+msgid "(PKR) Pakistani Rupee"
+msgstr "(PKR) Roupie Pakistanaise"
+
+#: lib/functions/listings.php:740
+#@ wpsight
+msgid "(PLN) Polish Zloty"
+msgstr "(PLN) Zloty Polonais"
+
+#: lib/functions/listings.php:741
+#@ wpsight
+msgid "(PYG) Paraguayan Guarani"
+msgstr "(PYG) Guarani Paraguayien"
+
+#: lib/functions/listings.php:742
+#@ wpsight
+msgid "(QAR) Qatari Rial"
+msgstr "(QAR) Rial Qatari"
+
+#: lib/functions/listings.php:743
+#@ wpsight
+msgid "(RON) Romanian Leu"
+msgstr "(RON) Leu Roumain"
+
+#: lib/functions/listings.php:744
+#@ wpsight
+msgid "(RSD) Serbian Dinar"
+msgstr "(RSD) Dinar Serbe"
+
+#: lib/functions/listings.php:745
+#@ wpsight
+msgid "(RUB) Russian Ruble"
+msgstr "(RUB) Rouble Russe"
+
+#: lib/functions/listings.php:746
+#@ wpsight
+msgid "(SAR) Saudi Riyal"
+msgstr "(SAR) Riyal Saoudien"
+
+#: lib/functions/listings.php:747
+#@ wpsight
+msgid "(SCR) Seychellois Rupee"
+msgstr "(SCR) Roupie des Seychelles"
+
+#: lib/functions/listings.php:748
+#@ wpsight
+msgid "(SEK) Swedish Krona"
+msgstr "(SEK) Couronne Suédoise"
+
+#: lib/functions/listings.php:749
+#@ wpsight
+msgid "(SGD) Singapore Dollar"
+msgstr "(SGD) Dollar de Singapour"
+
+#: lib/functions/listings.php:750
+#@ wpsight
+msgid "(SKK) Slovak Koruna"
+msgstr "(SKK) Couronne Slovaque"
+
+#: lib/functions/listings.php:751
+#@ wpsight
+msgid "(SLL) Sierra Leonean Leone"
+msgstr "(SLL) Leone du Sierra Leone"
+
+#: lib/functions/listings.php:752
+#@ wpsight
+msgid "(SVC) Salvadoran Colon"
+msgstr "(SVC) Colon Salvadorien"
+
+#: lib/functions/listings.php:753
+#@ wpsight
+msgid "(THB) Thai Baht"
+msgstr "(THB) Baht Thaïlandais"
+
+#: lib/functions/listings.php:754
+#@ wpsight
+msgid "(TND) Tunisian Dinar"
+msgstr "(TND) Dinar Tunisien"
+
+#: lib/functions/listings.php:755
+#@ wpsight
+msgid "(TRY) Turkish Lira"
+msgstr "(TRY) Lire Turque"
+
+#: lib/functions/listings.php:756
+#@ wpsight
+msgid "(TTD) Trinidad and Tobago Dollar"
+msgstr "(TTD) Dollar de Trinidad et Tobago"
+
+#: lib/functions/listings.php:757
+#@ wpsight
+msgid "(TWD) New Taiwan Dollar"
+msgstr "(TWD) Dollar Taïwainais"
+
+#: lib/functions/listings.php:758
+#@ wpsight
+msgid "(TZS) Tanzanian Shilling"
+msgstr "(TZS) Shilling Tanzanien"
+
+#: lib/functions/listings.php:759
+#@ wpsight
+msgid "(UAH) Ukrainian Hryvnia"
+msgstr "(UAH) Grivna Ukrainienne"
+
+#: lib/functions/listings.php:760
+#@ wpsight
+msgid "(UGX) Ugandan Shilling"
+msgstr "(UGX) Shilling Ougandais"
+
+#: lib/functions/listings.php:761
+#@ wpsight
+msgid "(USD) US Dollar"
+msgstr "(USD) Dollar Américain"
+
+#: lib/functions/listings.php:762
+#@ wpsight
+msgid "(UYU) Uruguayan Peso"
+msgstr "(UYU) Peso Uruguayen"
+
+#: lib/functions/listings.php:763
+#@ wpsight
+msgid "(UZS) Uzbekistan Som"
+msgstr "(UZS) Som d'Ouzbekistan"
+
+#: lib/functions/listings.php:764
+#@ wpsight
+msgid "(VEF) Venezuelan Bolivar"
+msgstr "(VEF) Bolivar Vénézuelien"
+
+#: lib/functions/listings.php:765
+#@ wpsight
+msgid "(VND) Vietnamese Dong"
+msgstr "(VND) Dong Vietnamien"
+
+#: lib/functions/listings.php:766
+#@ wpsight
+msgid "(XOF) CFA Franc BCEAO"
+msgstr "(XOF) Franc CFA BCEAO"
+
+#: lib/functions/listings.php:767
+#@ wpsight
+msgid "(YER) Yemeni Rial"
+msgstr "(YER) Rial Yéménite"
+
+#: lib/functions/listings.php:768
+#@ wpsight
+msgid "(ZAR) South African Rand"
+msgstr "(ZAR) Rand Sud-Africain"
+
+#: lib/functions/listings.php:769
+#@ wpsight
+msgid "(ZMK) Zambian Kwacha"
+msgstr "(ZMK) Kwacha Zambien"
+
+#: lib/functions/listings.php:962
+#@ wpsight
+msgid "Agent lists"
+msgstr "Liste des auteurs"
+
+#: lib/functions/listings.php:964
+#@ wpsight
+msgid "Hide this user from agent list."
+msgstr "Cacher cet utilisateur de la liste des auteurs."
+
+#: lib/functions/search.php:91
+#@ wpsight
+msgid "Order by"
+msgstr "Ordonner par"
+
+#: lib/functions/search.php:112
+#@ wpsight
+msgid "asc"
+msgstr "asc"
+
+#: lib/functions/search.php:113
+#@ wpsight
+msgid "desc"
+msgstr "desc"
+
+#: lib/widgets/agent.php:30
+#@ wpsight
+msgid "Featured agent info"
+msgstr "Info de l'agent à la une"
+
+#: lib/widgets/agent.php:31
+#@ wpsight
+msgctxt "listing widget"
+msgid "Featured Agent"
+msgstr "Agent à la une"
+
+#: lib/widgets/agent.php:109
+#@ wpsight
+msgid "Please select user"
+msgstr "Veuillez sélectionner l'utilisateur"
+
+#: lib/widgets/agent.php:134
+#@ wpsight
+msgid "Show link to contact form"
+msgstr "Montrer le lien vers le formulaire de contact"
+
+#: lib/widgets/listing-agent.php:30
+#@ wpsight
+msgid "Agent info on single listing pages"
+msgstr "Info de l'agent sur les pages d'annonces"
+
+#: lib/widgets/listing-agent.php:31
+#@ wpsight
+msgctxt "listing widget"
+msgid "Listing Agent"
+msgstr "Auteur de l'annonce"
+
+#: lib/widgets/listing-contact.php:39
+#@ wpsight
+msgid "Contact form on single listing pages"
+msgstr "Formulaire de contact sur les pages d'annonce"
+
+#: lib/widgets/listing-contact.php:40
+#@ wpsight
+msgctxt "listing widget"
+msgid "Listing Contact"
+msgstr "Contact de l'annonce"
+
+#: lib/widgets/listing-contact.php:109
+#@ wpsight
+msgid "If emtpy, emails are sent to the author of the listing."
+msgstr "Si le champ est vide, les emails seront envoyés à l'auteur de l'annonce."
+
+#: lib/widgets/listing-description.php:30
+#@ wpsight
+msgid "Description on single listing pages"
+msgstr "Description de l'annonce"
+
+#: lib/widgets/listing-description.php:31
+#@ wpsight
+msgctxt "listing widget"
+msgid "Listing Description"
+msgstr "Description de l'annonce"
+
+#: lib/widgets/listing-details.php:30
+#@ wpsight
+msgid "Details on single listing pages"
+msgstr "Détails sur une page d'annonce"
+
+#: lib/widgets/listing-details.php:31
+#@ wpsight
+msgctxt "listing widget"
+msgid "Listing Details"
+msgstr "Détails de l'annonce"
+
+#: lib/widgets/listing-details.php:87
+#@ wpsight
+msgid "Listing ID"
+msgstr "ID de l'annonce"
+
+#: lib/widgets/listing-details.php:167
+#@ wpsight
+msgid "Display type"
+msgstr "Type d'affichage"
+
+#: lib/widgets/listing-details.php:172
+#@ wpsight
+msgid "Display location"
+msgstr "Afficher le lieu"
+
+#: lib/widgets/listing-details.php:177
+#@ wpsight
+msgid "Display ID"
+msgstr "ID de l'affichage"
+
+#: lib/widgets/listing-features.php:30
+#@ wpsight
+msgid "Features on single listing pages"
+msgstr "Mettre à la une sur les pages d'annonce"
+
+#: lib/widgets/listing-features.php:31
+#@ wpsight
+msgctxt "listing widget"
+msgid "Listing Features"
+msgstr "Propriétés de l'annonce"
+
+#: lib/widgets/listing-gallery.php:30
+#@ wpsight
+msgid "Gallery on single listing pages"
+msgstr "Galerie sur les pages d'annonces"
+
+#: lib/widgets/listing-gallery.php:31
+#@ wpsight
+msgctxt "listing widget"
+msgid "Listing Gallery"
+msgstr "Galerie de l'annonce"
+
+#: lib/widgets/listing-image.php:30
+#@ wpsight
+msgid "Featured image on single listing pages"
+msgstr "Image à la une sur les pages d'annonces"
+
+#: lib/widgets/listing-image.php:31
+#@ wpsight
+msgctxt "listing widget"
+msgid "Listing Image"
+msgstr "Image de l'annonce"
+
+#: lib/widgets/listing-location.php:30
+#@ wpsight
+msgid "Location on single listing pages"
+msgstr "Lieu sur les pages d'annonces"
+
+#: lib/widgets/listing-location.php:31
+#@ wpsight
+msgctxt "listing widget"
+msgid "Listing Location"
+msgstr "Lieu de l'annonce"
+
+#: lib/widgets/listing-title.php:30
+#@ wpsight
+msgid "Main title on single listing pages"
+msgstr "Titre principal sur les pages d'annonces"
+
+#: lib/widgets/listing-title.php:31
+#@ wpsight
+msgctxt "listing widget"
+msgid "Listing Title"
+msgstr "Titre de l'annonce"
+
+#: lib/widgets/listing-title.php:40
+#: lib/widgets/listing-title.php:74
+#: lib/widgets/listing-title.php:87
+#@ wpsight
+msgid "Listing Title"
+msgstr "Titre de l'annonce"
+
+#: lib/widgets/listings-latest.php:26
+#@ wpsight
+msgid "Latest listings teaser"
+msgstr "Aperçu des dernières annonces"
+
+#: lib/widgets/listings-latest.php:27
+#@ wpsight
+msgid "Latest Listings"
+msgstr "Dernières annonces"
+
+#: lib/widgets/listings-search.php:30
+#@ wpsight
+msgid "Advanced listing search form"
+msgstr "Formulaire de recherche d'annonce avancé"
+
+#: lib/widgets/listings-search.php:31
+#@ wpsight
+msgctxt "listing widget"
+msgid "Listings Search"
+msgstr "Recherche d'annonces"
+
+#: lib/widgets/listings-slider.php:27
+#@ wpsight
+msgid "jQuery listing slider"
+msgstr "slider d'annonce jQuery"
+
+#: lib/widgets/listings-slider.php:28
+#@ wpsight
+msgctxt "listing widget"
+msgid "Listings Slider"
+msgstr "Slider d'annonces"
+
+#: lib/widgets/listings-slider.php:453
+#@ wpsight
+msgid "Listing details"
+msgstr "Détails de l'annonce"
+
+#: lib/widgets/listings-slider.php:458
+#@ wpsight
+msgid "Listing teaser"
+msgstr "Aperçu de l'annonce"
+
+#: lib/widgets/post-spaces.php:27
+#@ wpsight
+msgid "Custom sidebar content on single listing, post and static pages"
+msgstr "Barre latérale personnalisée sur les pages d'annonces, articles et pages statiques"
+
+#: lib/widgets/post-spaces.php:28
+#@ wpsight
+msgid "Single Spaces"
+msgstr "Single Spaces"
+
+#: lib/widgets/widgets.php:109
+#: lib/wpcasa/widgets/filters.php:32
+#@ wpsight
+msgid "Listing Single Content"
+msgstr "Contenu de l'annonce"
+
+#: lib/widgets/widgets.php:110
+#: lib/wpcasa/widgets/filters.php:33
+#@ wpsight
+msgid "Main content on single listing pages"
+msgstr "Contenu principal sur les pages d'articles"
+
+#: lib/widgets/widgets.php:120
+#: lib/wpcasa/widgets/filters.php:43
+#@ wpsight
+msgid "Listing Single Sidebar"
+msgstr "Barre latérale des annonces"
+
+#: lib/widgets/widgets.php:121
+#: lib/wpcasa/widgets/filters.php:44
+#@ wpsight
+msgid "Sidebar on single listing pages"
+msgstr "Barre latérale sur les pages d'annonces"
+
+#: lib/widgets/widgets.php:131
+#: lib/wpcasa/widgets/filters.php:54
+#@ wpsight
+msgid "Listing Archive Sidebar"
+msgstr "Barre latérale sur les archives d'annonces"
+
+#: lib/widgets/widgets.php:132
+#: lib/wpcasa/widgets/filters.php:55
+#@ wpsight
+msgid "Sidebar on listing archive pages"
+msgstr "Barre latérale sur les pages d'archives des annonces"
+
+#: lib/wpcasa/actions/actions.php:147
+#@ wpsight
+msgctxt "taxonomy types"
+msgid "Property Types"
+msgstr "Types de bien"
+
+#: lib/wpcasa/actions/actions.php:148
+#@ wpsight
+msgctxt "taxonomy types"
+msgid "All Property Types"
+msgstr "Tous les types de bien"
+
+#: lib/wpcasa/actions/actions.php:149
+#@ wpsight
+msgctxt "taxonomy types"
+msgid "Edit Property Type"
+msgstr "Modifier le type de bien"
+
+#: lib/wpcasa/actions/actions.php:150
+#@ wpsight
+msgctxt "taxonomy types"
+msgid "View Property Type"
+msgstr "Voir le type de bien"
+
+#: lib/wpcasa/actions/actions.php:151
+#@ wpsight
+msgctxt "taxonomy types"
+msgid "Update Property Type"
+msgstr "Mettre à jour le type de bien"
+
+#: lib/wpcasa/actions/actions.php:152
+#@ wpsight
+msgctxt "taxonomy types"
+msgid "Add New Property Type"
+msgstr "Ajouter un type de bien"
+
+#: lib/wpcasa/actions/actions.php:153
+#@ wpsight
+msgctxt "taxonomy types"
+msgid "New Property Type Name"
+msgstr "Ajouter un nom de type de bien"
+
+#: lib/wpcasa/actions/actions.php:154
+#@ wpsight
+msgctxt "taxonomy types"
+msgid "Parent Property Type"
+msgstr "Type de bien parent"
+
+#: lib/wpcasa/actions/actions.php:155
+#@ wpsight
+msgctxt "taxonomy types"
+msgid "Parent Property Type:"
+msgstr "Type de bien parent:"
+
+#: lib/wpcasa/actions/actions.php:156
+#@ wpsight
+msgctxt "taxonomy types"
+msgid "Search property types"
+msgstr "Rechercher un type de bien"
+
+#: lib/wpcasa/actions/actions.php:157
+#@ wpsight
+msgctxt "taxonomy types"
+msgid "Popular Property Types"
+msgstr "Type de bien populaires"
+
+#: lib/wpcasa/actions/actions.php:158
+#@ wpsight
+msgctxt "taxonomy types"
+msgid "Separate property types with commas"
+msgstr "Séparer les types de bien avec des virgules"
+
+#: lib/wpcasa/actions/actions.php:159
+#@ wpsight
+msgctxt "taxonomy types"
+msgid "Add or remove property types"
+msgstr "Ajouter ou supprimer des types de bien"
+
+#: lib/wpcasa/actions/actions.php:160
+#@ wpsight
+msgctxt "taxonomy types"
+msgid "Choose from the most used property types"
+msgstr "Choisir parmi les types de bien les plus utilisés"
+
+#: lib/wpcasa/actions/actions.php:161
+#@ wpsight
+msgctxt "taxonomy types"
+msgid "No property type found"
+msgstr "Aucun de type de bien n'a été trouvé"
+
+#: lib/wpcasa/actions/actions.php:256
+#@ wpsight
+msgid "Thanks for using wpCasa!"
+msgstr "Merci d'utiliser wpCasa!"
+
+#: lib/wpcasa/actions/actions.php:257
+#@ wpsight
+msgid "Here are some quick links to help you find your way"
+msgstr "Voici quelques liens pour vous aider"
+
+#: lib/wpcasa/actions/actions.php:263
+#@ wpsight
+msgid "Customize It"
+msgstr "Personnaliser le"
+
+#: lib/wpcasa/actions/actions.php:264
+#: lib/wpcasa/actions/actions.php:265
+#@ wpsight
+msgid "Customize Your Site"
+msgstr "Personnaliser votre site"
+
+#: lib/wpcasa/actions/actions.php:266
+#, php-format
+#@ wpsight
+msgid "or <a href=\"%s\">change theme settings</a>"
+msgstr "ou <a href=\"%s\">modifier les options de votre thème</a>"
+
+#: lib/wpcasa/actions/actions.php:272
+#@ wpsight
+msgid "Get Started"
+msgstr "Commencer"
+
+#: lib/wpcasa/actions/actions.php:274
+#@ wpsight
+msgid "Create a listing"
+msgstr "Créer une annonce"
+
+#: lib/wpcasa/actions/actions.php:275
+#, php-format
+#@ wpsight
+msgid "Example data (<a href=\"%1$s\" target=\"_blank\">read tutorial</a> or <a href=\"%2$s\" target=\"_blank\">download XML</a>)"
+msgstr "Exemple (<a href=\"%1$s\" target=\"_blank\">lire le tutoriel</a> ou <a href=\"%2$s\" target=\"_blank\">télécharger le fichier XML</a>)"
+
+#: lib/wpcasa/actions/actions.php:276
+#, php-format
+#@ wpsight
+msgid "Manage <a href=\"%1$s\">widgets</a> or <a href=\"%2$s\">menus</a>"
+msgstr "Gérez <a href=\"%1$s\">les widgets</a> ou <a href=\"%2$s\">les menus</a>"
+
+#: lib/wpcasa/actions/actions.php:283
+#@ wpsight
+msgid "Get Assistance"
+msgstr "Obtenir de l'aide"
+
+#: lib/wpcasa/actions/actions.php:284
+#@ wpsight
+msgid "Please check your PayPal email inbox for your member account credentials."
+msgstr "Veuillez vérifier votre email Paypal pour obtenir vos identifiants."
+
+#: lib/wpcasa/actions/actions.php:286
+#@ wpsight
+msgid "Visit our support center"
+msgstr "Visiter notre forum de support"
+
+#: lib/wpcasa/widgets/_deprecated/properties-search.php:29
+#@ wpsight
+msgctxt "listing widget"
+msgid "Property Search"
+msgstr "Recherche de bien"
+
+#: lib/wpcasa/widgets/_deprecated/properties-slider.php:28
+#@ wpsight
+msgctxt "listing widget"
+msgid "Property Slider"
+msgstr "Slider de bien"
+
+#: lib/wpcasa/widgets/_deprecated/property-agent.php:29
+#@ wpsight
+msgctxt "listing widget"
+msgid "Property Agent"
+msgstr "Agent du bien"
+
+#: lib/wpcasa/widgets/_deprecated/property-contact.php:40
+#@ wpsight
+msgctxt "listing widget"
+msgid "Property Contact"
+msgstr "Contact du bien"
+
+#: lib/wpcasa/widgets/_deprecated/property-description.php:29
+#@ wpsight
+msgctxt "listing widget"
+msgid "Property Description"
+msgstr "Description du bien"
+
+#: lib/wpcasa/widgets/_deprecated/property-details.php:29
+#@ wpsight
+msgctxt "listing widget"
+msgid "Property Details"
+msgstr "Détails du bien"
+
+#: lib/wpcasa/widgets/_deprecated/property-features.php:29
+#@ wpsight
+msgctxt "listing widget"
+msgid "Property Features"
+msgstr "Propriétés du bien"
+
+#: lib/wpcasa/widgets/_deprecated/property-gallery.php:29
+#@ wpsight
+msgctxt "listing widget"
+msgid "Property Gallery"
+msgstr "Galerie du bien"
+
+#: lib/wpcasa/widgets/_deprecated/property-image.php:29
+#@ wpsight
+msgctxt "listing widget"
+msgid "Property Image"
+msgstr "Image du bien"
+
+#: lib/wpcasa/widgets/_deprecated/property-location.php:29
+#@ wpsight
+msgctxt "listing widget"
+msgid "Property Location"
+msgstr "Emplacement du bien"
+
+#: lib/wpcasa/widgets/_deprecated/property-title.php:29
+#@ wpsight
+msgctxt "listing widget"
+msgid "Property Title"
+msgstr "Titre du bien"
+
+#: listing-print.php:75
+#@ wpsight
+msgctxt "listing print"
+msgid "Listing Details"
+msgstr "Détails de l'annonce"
+
+#: listing-print.php:99
+#@ wpsight
+msgctxt "listing print"
+msgid "Listing Features"
+msgstr "Propriétés de l'annonce"
+
+#: listing-print.php:112
+#@ wpsight
+msgctxt "listing print"
+msgid "QR Code"
+msgstr "QR Code"
+
+#: page-tpl-authors.php:144
+#@ wpsight
+msgid "<strong>Sorry!</strong> No agents found."
+msgstr "<strong>Désolé!</strong> Aucun agent n'a été trouvé."
+
+#: lib/admin/meta-boxes.php:610
+#: lib/admin/meta-boxes.php:706
+#@ wpsight
+msgid "Image Size"
+msgstr "Taille de l'image"
+
+#: lib/admin/meta-boxes.php:611
+#@ wpsight
+msgid "Keep in mind that the image size is limited by the layout"
+msgstr "La taille de l'image est également limitée par la disposition"
+
+#: lib/admin/meta-boxes.php:612
+#: lib/admin/meta-boxes.php:708
+#@ wpsight
+msgid "Image Align"
+msgstr ""
+
+#: lib/admin/meta-boxes.php:613
+#@ wpsight
+msgid "Select your preferred image alignment"
+msgstr ""
+
+#: lib/admin/meta-boxes.php:707
+#@ wpsight
+msgid "Keep in mind that the image size is limited by the layout."
+msgstr "La taille de l'image est également limitée par la disposition."
+
+#: lib/admin/meta-boxes.php:709
+#@ wpsight
+msgid "Select your preferred image alignment."
+msgstr ""
+
+#: lib/framework/agents.php:331
+#@ wpsight
+msgid "Admin"
+msgstr ""
+
+#: lib/framework/taxonomies.php:415
+#@ wpsight
+msgid "View all Statuses"
+msgstr ""
+
+#: listing-no.php:4
+#@ wpsight
+msgid "<strong>Sorry!</strong> No listings matched your criteria."
+msgstr ""
+
