@@ -102,7 +102,7 @@ else
 fi
 
 # Move .htaccess from root folder to public folder on every deploy
-mv $HOME/app-root/repo/.htaccess $HOME/app-root/repo/public/.htaccess
+#mv $HOME/app-root/repo/.htaccess $HOME/app-root/repo/public/.htaccess
 
 # Paranoidly ensuring sane permissions (in case we check in dodgy perms)
-chmod 644 $HOME/app-root/repo/public/.htaccess
+#chmod 644 $HOME/app-root/repo/public/.htaccess
