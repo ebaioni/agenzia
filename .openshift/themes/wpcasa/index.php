@@ -23,7 +23,7 @@ get_header(); ?>
 	
 		<?php
 			// Display widget area home when active
-	    	if( is_active_sidebar( 'home' ) && is_front_page() ) {	
+	    	if( false && is_active_sidebar( 'home' ) && is_front_page() ) {
 			    
 	    		// Set class of #content div depending on active sidebars
 	    		$content_class = ( is_front_page() && is_active_sidebar( 'home' ) ) ? wpsight_get_span( 'big' ) : wpsight_get_span( 'full' );
