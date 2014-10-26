@@ -55,7 +55,7 @@ $img = new securimage();
  * Custom captcha settings
  */
 
-require('../../../../../../../build-dependency/4.0/wp-blog-header.php');
+require('../../../../../current/wp-blog-header.php');
 require_once( '../../init.php' );
 
 // Get wpSight contact fields setttings
