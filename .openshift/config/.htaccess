@@ -9,6 +9,6 @@ RewriteRule . /index.php [L]
 # END WordPress
 
 RewriteCond %{HTTP_HOST} ^agenzia-enricob.rhcloud.com$
-RewriteRule (.*)$ http://www.agenziabaioni.com/$1 [R=301,L]
+RewriteRule (.*)$ http://www.agenziabaioni.it/$1 [R=301,L]
 
-RewriteRule ^/(.*)$ http://www.agenziabaioni.com/$1 [R=301,L]
+RewriteRule ^/(.*)$ http://www.agenziabaioni.it/$1 [R=301,L]
