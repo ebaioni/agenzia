@@ -8,7 +8,7 @@ RewriteRule . /index.php [L]
 </IfModule>
 # END WordPress
 
-#RewriteCond %{HTTP_HOST} ^agenzia-enricob.rhcloud.com$
-#RewriteRule (.*)$ http://www.agenziabaioni.com/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} ^agenzia-enricob.rhcloud.com$
+RewriteRule (.*)$ http://www.agenziabaioni.com/$1 [R=301,L]
 
 RewriteRule ^/(.*)$ http://www.agenziabaioni.com/$1 [R=301,L]
