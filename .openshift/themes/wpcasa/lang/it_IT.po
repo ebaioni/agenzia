@@ -3867,7 +3867,7 @@ msgstr "Dettagli Annuncio"
 #: lib/widgets/listing-details.php:87
 #@ wpsight
 msgid "Listing ID"
-msgstr "ID Annuncio"
+msgstr "Rif."
 
 #: lib/widgets/listing-details.php:167
 #@ wpsight
