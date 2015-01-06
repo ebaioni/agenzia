@@ -175,6 +175,7 @@ hr {
 }
 
 .print-header-right {
+	visibility: hidden;
 	position: absolute;
 	top: 38px;
 	right: 0;
@@ -197,7 +198,13 @@ hr {
 	#wrap {
 		margin-top: 0;
 	}
-	
+
+	.print-header-right {
+		display: none;
+	}
+	.print-description {
+		font-size: 20px;
+	}
 }
 
 /* Clearing

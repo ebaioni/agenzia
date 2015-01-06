@@ -438,7 +438,7 @@ function wpsight_listing_qr_shortcode( $atts ) {
 
 	$defaults = array(
 		'id'	 => get_the_ID(),
-		'size' 	 => '150',
+		'size' 	 => '100',
 		'image'	 => 'true',
 		'before' => '',
 		'after'  => '',
