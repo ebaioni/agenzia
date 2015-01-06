@@ -63,7 +63,7 @@ $listing = get_post( $listing_id ); ?>
 			<?php
 			
 				// Display listing ID
-				echo do_shortcode( '<b>Rif. </b>[listing_id after=" --- "]' );
+				echo do_shortcode( '<span class="listing-id-sc">Rif.</span>[listing_id after=" --- "]' );
 				
 				// Display listing price
 				echo do_shortcode( '[listing_price]' );
