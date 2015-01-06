@@ -500,7 +500,7 @@ msgstr "Prezzo"
 #: lib/functions/search.php:18
 #@ wpsight
 msgid "Status"
-msgstr "Stato"
+msgstr "Richiesta"
 
 #: lib/admin/meta-boxes.php:141
 #@ wpsight
