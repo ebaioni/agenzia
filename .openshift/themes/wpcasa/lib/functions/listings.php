@@ -254,7 +254,10 @@ if ( ! function_exists( 'wpsight_get_listing_id' ) ) {
 		
 		if( ! isset( $prefix ) )
 			$prefix = wpsight_get_option( 'listing_id', true );
-			
+		
+		if (empty($prefix)) {
+			$prefix = "Rif. ";
+		}
 		// Built listing ID
 		
 		$listing_id = $prefix . $post_id;
