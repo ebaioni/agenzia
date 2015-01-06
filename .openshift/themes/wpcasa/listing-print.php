@@ -114,8 +114,8 @@ $listing = get_post( $listing_id ); ?>
 		?>
 		
 		<div class="print-features">
-		
 			<!-- <h2><?php _ex( 'Listing Features', 'listing print', 'wpsight' ); ?></h2> -->
+			 <h2>Servizi</h2>
 			
 			<?php
 				// Display listing features
