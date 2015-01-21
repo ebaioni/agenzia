@@ -205,6 +205,7 @@ hr {
 	.print-description {
 		font-size: 26px;
 		text-transform: uppercase;
+		font-weight: bold;
 	}
 
 	#logo-text {
@@ -213,6 +214,15 @@ hr {
 
 	#logo-description {
 		display: none;
+	}
+
+	.print-qr {
+		display: none;
+	}
+
+	.print-title {
+		text-transform: uppercase;
+		font-weight: bold;
 	}
 }
 
