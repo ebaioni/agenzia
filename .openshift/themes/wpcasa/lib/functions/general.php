@@ -30,7 +30,7 @@ if ( ! function_exists( 'wpsight_image_sizes' ) ) {
 						'w' => 215,
 						'h' => 120
 					),
-					'crop'  => true,
+					'crop'  => false,//true
 					'label' => __( 'small', 'wpsight' )
 				),
 				'half' => array(
@@ -38,7 +38,7 @@ if ( ! function_exists( 'wpsight_image_sizes' ) ) {
 						'w' => 470,
 						'h' => 265
 					),
-					'crop'  => true,
+					'crop'  => false,//true
 					'label' => __( 'half', 'wpsight' )
 				),
 				'big' => array(
@@ -46,7 +46,7 @@ if ( ! function_exists( 'wpsight_image_sizes' ) ) {
 						'w' => 725,
 						'h' => 410
 					),
-					'crop'  => true,
+					'crop'  => false,//true
 					'label' => __( 'big', 'wpsight' )
 				),
 				'full' => array(
@@ -54,7 +54,7 @@ if ( ! function_exists( 'wpsight_image_sizes' ) ) {
 						'w' => 980,
 						'h' => 450
 					),
-					'crop'  => true,
+					'crop'  => false,//true
 					'label' => __( 'full', 'wpsight' )
 				)
 			);
@@ -77,7 +77,7 @@ if ( ! function_exists( 'wpsight_image_sizes' ) ) {
 						'w' => 470,
 						'h' => 265
 					),
-					'crop'  => true,
+					'crop'  => false,//true
 					'label' => __( 'half', 'wpsight' )
 				),
 				'big' => array(
@@ -85,7 +85,7 @@ if ( ! function_exists( 'wpsight_image_sizes' ) ) {
 						'w' => 640,
 						'h' => 360
 					),
-					'crop'  => true,
+					'crop'  => false,//true
 					'label' => __( 'big', 'wpsight' )
 				),
 				'full' => array(
@@ -93,7 +93,7 @@ if ( ! function_exists( 'wpsight_image_sizes' ) ) {
 						'w' => 980,
 						'h' => 450
 					),
-					'crop'  => true,
+					'crop'  => false,//true
 					'label' => __( 'full', 'wpsight' )
 				)
 			);	
