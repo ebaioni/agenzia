@@ -204,6 +204,7 @@ hr {
 	}
 	.print-description {
 		font-size: 26px;
+		text-transform: uppercase;
 	}
 
 	#logo-text {
