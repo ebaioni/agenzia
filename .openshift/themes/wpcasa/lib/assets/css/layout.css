@@ -2142,7 +2142,7 @@ html[xmlns] .slides {display: block;}
 }
 
 .flex-direction-nav {
-	position: absolute;
+	/*position: absolute;*/
 	left: 20px;
 	bottom: 20px;
 	width: 50px;

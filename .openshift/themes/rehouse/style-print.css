@@ -224,6 +224,11 @@ hr {
 		text-transform: uppercase;
 		font-weight: bold;
 	}
+
+	.print-image {
+		max-width: 40%;
+		max-height: 50%;
+	}
 }
 
 /* Clearing

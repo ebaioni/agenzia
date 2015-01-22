@@ -318,7 +318,7 @@ class wpSight_Listings_Slider extends WP_Widget {
 					  				<li>
 					  					<?php
 					  						if( $unlink == false ) {
-					  							echo '<a href="' . get_permalink() . '">' . get_the_post_thumbnail( get_the_ID(), $image_size, array( 'alt' => get_the_title(), 'title' => get_the_title() ) ) . '</a>';
+					  							echo '<a href="' . get_permalink() . '">' . get_the_post_thumbnail( get_the_ID(), $image_size, array( 'alt' => get_the_title(), 'title' => get_the_title(), 'class' => 'nomargin' ) ) . '</a>';
 					  						} else {
 					  							echo get_the_post_thumbnail( get_the_ID(), $image_size, array( 'alt' => get_the_title(), 'title' => get_the_title() ) );
 					  						}
