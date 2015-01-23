@@ -13,7 +13,7 @@
 
 do_action( 'wpsight_head' );
 wp_head(); ?>
-
+<meta name="google-site-verification" content="tLiq_W2lvDcC349Zct11ziflgDFRM-oeLHlFkpDGaAQ" />
 </head>
 
 <body <?php body_class(); ?>>
