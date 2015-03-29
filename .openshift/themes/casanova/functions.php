@@ -11,7 +11,7 @@
  * and add Oswald and Lora
  */
  
-add_action( 'wp_enqueue_scripts', 'dequeue_wpcasa_styles', 100 );
+add_action( 'wp_enqueue_scripts', 'dequeue_wpcasa_styles', 100 ); 
 
 function dequeue_wpcasa_styles() {
 	wp_dequeue_style( 'droid-serif' );	 
